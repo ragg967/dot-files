@@ -1,0 +1,74 @@
+configuration {
+    modes: "combi";
+    combi-modes: "drun,run";
+    show-icons: true;
+}
+
+* {
+    bg-col:      #3d4638;
+    bg-col-alt:  #5c6b52;
+    fg-col:      #c7d1bd;
+    fg-col-alt:  #f5ece6;
+    accent:      #c9587e;
+    urgent:      #e0954f;
+}
+
+window {
+    location: north;
+    anchor: north;
+    y-offset: 0;
+    width: 100%;
+    background-color: @bg-col;
+    border: 2px;
+    border-color: @bg-col-alt;
+}
+
+mainbox {
+    background-color: @bg-col;
+}
+
+inputbar {
+    background-color: @bg-col;
+    text-color: @fg-col;
+    children: [ prompt, entry ];
+}
+
+prompt {
+    background-color: @bg-col;
+    text-color: @fg-col;
+}
+
+entry {
+    background-color: @bg-col;
+    text-color: @fg-col;
+    placeholder-color: @fg-col;
+}
+
+listview {
+    lines: 8;
+    background-color: @bg-col;
+}
+
+element normal {
+    background-color: @bg-col;
+    text-color: @fg-col;
+}
+
+element selected {
+    background-color: @accent;
+    text-color: @fg-col-alt;
+}
+
+element-text {
+    background-color: inherit;
+    text-color: inherit;
+}
+
+element-icon {
+    background-color: inherit;
+}
+
+scrollbar {
+    background-color: @bg-col;
+    handle-color: @bg-col-alt;
+}

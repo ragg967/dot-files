@@ -1,0 +1,13 @@
+;; -*- lexical-binding: t; -*-
+
+(unless (package-installed-p 'odin-mode)
+  (package-vc-install '(odin-mode :url "https://github.com/mattt-b/odin-mode.git")))
+
+(use-package go-mode
+  :hook (go-mode . eglot-ensure))
+
+(add-hook 'odin-mode-hook 'eglot-ensure)
+(add-hook 'c-mode-hook 'eglot-ensure)
+(add-hook 'c-ts-mode-hook 'eglot-ensure)
+
+(provide 'init-lsp)

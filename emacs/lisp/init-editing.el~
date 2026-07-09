@@ -1,0 +1,39 @@
+;; -*- lexical-binding: t; -*
+;; -*- lexical-binding: t; -*-
+;; init-editing.el — general editing behavior
+
+;; Clipboard/kill-ring integration with the system
+(setq select-enable-clipboard t)
+x
+;; Indentation — spaces instead of tabs by default (change per-mode if needed)
+(setq-default indent-tabs-mode nil
+              tab-width 4)
+
+;; Show matching parens
+(show-paren-mode t)
+
+;; Auto-close brackets/parens/quotes as you type
+(electric-pair-mode t)
+
+;; Highlight the current line
+(global-hl-line-mode t)
+
+;; Delete trailing whitespace on save
+(add-hook 'before-save-hook 'delete-trailing-whitespace)
+
+;; If you'd rather keep backups but tidy them into one place instead of disabling:
+(setq backup-directory-alist '(("." . "~/.config/emacs/backups")))
+
+;; Confirm before killing Emacs (avoid accidental C-x C-c closing everything)
+(setq confirm-kill-emacs 'y-or-n-p)
+
+;; Answer y/n instead of yes/no for all prompts (less typing)
+(setq use-short-answers t)
+
+;; Automatically revert buffers when the underlying file changes on disk
+(global-auto-revert-mode t)
+
+;; Remember cursor position in files between sessions
+(save-place-mode t)
+
+(provide 'init-editing)

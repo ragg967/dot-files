@@ -1,0 +1,35 @@
+backend = "xrender";
+vsync = true;
+detect-client-opacity = true;
+use-damage = false;
+resize-damage = false;
+use-ewmh-active-win = true;
+detect-client-leader = true;
+detect-transient = true;
+
+shadow = false;
+fading = false;
+
+corner-radius = 4;
+
+blur-background = true;
+
+blur: {
+  method = "dual_kawase";
+  strength = 10;
+  background = true;
+  background-frame = true;
+  background-fixed = true;
+}
+
+rules = (
+  {
+    match = "window_type != 'dock' && window_type != 'desktop'";
+    opacity = 0.90;
+    blur-background = true;
+  },
+  {
+    match = "fullscreen";
+    opacity = 1.0;
+  },
+)

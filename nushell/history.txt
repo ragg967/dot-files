@@ -1,0 +1,4129 @@
+cd ..
+version
+ls | sort-by size | reverse
+ps | where cpu > 0 | sort-by cpu | reverse
+vim .config/nushell/env.nu
+which nu
+doas
+clear
+doas sh -c 'echo "/home/rye/.cargo/bin/nu" >> /etc/shells'
+ls -la &(which doas)
+ls -la $(which doas)
+which doas
+ls -la $(which doas)
+ls -la which doas
+ls -la (which doas)
+ls -la $(which doas)
+ls -la /usr/bin/doas
+grops rye
+groups rye
+doas -C /etc/doas.conf
+doas sh -c 'echo "/home/rye/.cargo/bin/nu" >> /etc/shells'
+cd /tmp/
+cd OpenDoas/
+make clean
+doas sh -c 'echo test'
+doas sh -c 'echo "/home/rye/.cargo/bin/nu" >> /etc/shells'
+chsh -s /home/rye/.cargo/bin/nu rye
+prt-get search xcb
+pkginfo -i | greb xcb
+pkginfo -i | grep xcb
+cd /tmp/
+git clone https://github.com/baskerville/sxhkd.git
+cd sxhkd/
+make
+doas make install
+cd ..
+git clone https://github.com/b
+git clone https://github.com/baskerville/bspwm.git
+cd bspwm/
+make
+doas make install
+mkdir -p ~/.config/bspwm
+mkdir ~/.config/bspwm
+mkdir ~/.config/sxhkd
+doas cd /usr/local/share/doc/bspwm/examples/bspwmrc ~/.config/bspwm/
+doas cp /usr/local/share/doc/bspwm/examples/bspwmrc ~/.config/bspwm/
+doas cp /usr/local/share/doc/sxhkd/examples/sxhkd  ~/.config/sxhkd/
+doas cp /usr/local/share/doc/bspwm/examples/sxhkd  ~/.config/sxhkd/
+doas cp /usr/local/share/doc/bspwm/examples/sxhkdrc  ~/.config/sxhkd/
+chmod +x ~/.config/bspwm/bspwmrc
+doas chmod +x ~/.config/bspwm/bspwmrc
+grep terminal ~/.config/sxhkd/sxhkdrc
+cd ~
+which zig
+cd /tmp/
+curl -L https://ziglang.org/download/0.16.0/zig-linux-x86_64-0.16.0.tar.xz -o zig.tar.xz
+tar xvf zig.tar.xz
+ls -la
+rm -rf bspwm/ sxhkd/ zig.tar.xz
+ls -la
+prt-get search rxvt
+prt-get search urxvt
+curl -L https://dist.schmorp.de/rxvt-unicode-9.31.tar.bz2 -o urxvt.tar.bz2
+ls -la
+tar xvf urxvt.tar.bz2
+git clone https://github.com/cpjreynolds/urxvt.git
+cd urxvt/
+ls -la
+./autogen.sh
+autoupdate
+autoupdate autogen.sh
+./autogen.sh
+./configure --prefix=/usr --enable-xft --enable-font-styles --enable-256-color --enable-unicode2 --disable-next-scroll --disable-xterm-scroll --enable-perl
+./configure --prefix=/usr --enable-xft --enable-font-styles --enable-256-color --enable-unicode3 --disable-next-scroll --disable-xterm-scroll --enable-perl
+make
+sed -i 's/throw (bad_loop)//g' src/../lib/ev++.h
+sed -i 's/throw (bad_loop)//g' ./../lib/ev++.h
+sed -i 's/throw (bad_loop)//g' src/../lib/ev++.h
+find . -name "ev++.h"
+find .  "ev++.h"
+find "ev++.h"
+find . -name "ev++.h"
+find --help
+find . -name "ev++.h"
+sh -c 'find . -name "ev++.h"'
+sed -i 's/throw (bad_loop)//g' ./lib/ev++.h
+sed -i 's/throw (bad_loop)//g' ./libev/ev++.h
+make
+doas make install
+nrpoc
+nproc
+vim ~/.config/nushell/env.nu
+which startx
+cd ~
+vim .xinitrc
+chmod +x .xinitrc
+startx
+xinit
+which bspwm
+bspwm
+cd /tmp/
+ls -la
+cd urxvt/
+ls -la
+which urxvp
+which urxvt 
+cd..
+cd ..
+git clone https://github.com/baskerville/bspwm.git
+git clone https://github.com/baskerville/sxhkd.git
+cd sxhkd/
+make
+doas make install
+which sxpm
+which sxhkd
+doas which sxhkd
+cd ..
+doas which bspwm
+rm -rf bspwm/ sxhkd/ urxvt/ urxvt.tar.bz2
+ls -la
+rm -rf OpenDoas/
+doas rm -rf OpenDoas/
+cd ~
+startx
+vim .xinitrc
+vim .config/nushell/env.nu
+clear
+vim .xinitrc
+vim .config/nushell/env.nu
+which urxvt 
+cat .config/bspwm/bspwmrc
+vim .config/bspwm/bspwmrc
+doas vim .config/bspwm/bspwmrc
+vim .xinitrc
+vin .config/sxhkd/sxhkdrc
+doas vim .config/sxhkd/sxhkdrc
+urxvt 
+cat /var/log/Xorg.0.log | grep -E "EE|WW"
+prt-get search mesa
+prt-get search xf86-video-intell
+prt-get search xf86-video-intel
+prt-get mesa
+prt-get depinst mesa
+prt-get depinst f86-video-intel
+prt-get depinst xf86-video-intel
+prt-get depinst xorg-xf86-video-intel
+doas mkdir -p /etc/X11/xorg.conf.d/
+doas vim /etc/X11/xorg.conf.d/20-gpu.conf
+ls /dev/disk/
+ls /dev/dir
+ls /dev/dri/
+doas vim /etc/X11/xorg.conf.d/20-gpu.conf
+pgrep sxhkd
+exit
+pkill sxhkd
+sxhkd -v &
+pkill sxhkd
+vim .config/sxhkd/sxhkdrc
+doas vim .config/sxhkd/sxhkdrc
+sh
+exit
+urxvt 
+doas vim .config/sxhkd/sxhkdrc
+pkill sxhkd
+sxhkd &
+sxhkd .config/sxhkd/sxhkdrc &
+pkill sxhkd
+exit
+sxhkd .config/sxhkd/sxhkdrc
+vim .config/sxhkd/sxhkdrc
+doas vim .config/sxhkd/sxhkdrc
+doas vim .config/bspwm/bspwmrc
+exit
+exit
+exit
+wxit
+exit
+sxhkd -c .config/sxhkd/sxhkdrc
+doas vim .config/bspwm/bspwmrc
+prt-get search feh
+vim .Xresources
+doas xrdb -merge .Xresources
+sxhkd -c .config/sxhkd/sxhkdrc &
+exit
+sxhkd -c .config/sxhkd/sxhkdrc
+sxhkd -c .config/sxhkd/sxhkdrc &&
+sxhkd -c .config/sxhkd/sxhkdrc &
+shd -c 'sxhkd -c .config/sxhkd/sxhkdrc &'
+sh -c 'sxhkd -c .config/sxhkd/sxhkdrc &'
+exit
+exut
+exit
+cd /tmp/
+git clone https://github.com/derf/feh.git
+make
+cd feh/
+make
+prt-get search imlib2
+prt-get search libpng
+prt-get depinst imlib2
+doas prt-get depinst imlib2
+prt-get depsinst libpng
+doas prt-get depinst libpng
+doas prt-get depinst imlib2
+doas prt-get depinst imlib2 --install-scripts
+find /usr/prts -name "imlbi2" -type d
+sh -c 'find /usr/prts -name "imlbi2" -type d'
+sh -c 'find /usr/ports -name "imlbi2" -type d'
+cd /usr/ports/opt/imlib2/
+doas pkgmk -d -if -um
+doas pkgadd -f `imlib2#1.12.6-1.pkg.tar.gz`
+cd /tmp/
+cd feh/
+make
+doas make install
+feh
+cd ~
+vim .Xresources
+doas xrdb -merge .Xresources
+exit
+firefox
+firefox &
+firefox &&
+firefox :
+firefox ;
+firefox
+pkill firefox
+vim /etc/apparmor.d/firefox-local
+doas vim /etc/apparmor.d/firefox-local
+exir
+exit
+firefox
+doas reboot
+doas poweroff
+sh -c 'doas reboot'
+doas shutdown now
+reboot
+doas shutdown
+prt-get search reboot
+ls -la
+cd .suckless/
+git clone https://git.suckless.org/dwm
+git clone --depth=1 https://git.suckless.org/dwm
+git clone --depth=1 https://git.suckless.org/st
+git clone --depth=1 https://git.suckless.org/dmenu
+cd dwm/
+doas make clean install
+cd ../dmenu/
+doas make clean install
+cd ../st/
+doas make clean install
+vom config.mk
+vim config.mk
+doas make clean install
+clear
+cd ..
+vim .xinitrc
+rm .Xresources
+cd .suckless/
+cd st/
+ls -la
+cd ~
+vim .xinitrc
+startx
+vim .xinitrc
+startx
+vim .xinitrc
+startx
+which dwm
+dwm
+vim .xinitrc
+doas which dwm
+vim .xinitrc
+doas which bspwm
+doas rm /usr/local/bin/bspwm
+doas rm /usr/local/bin/sxhkd
+rm -rf .config/bspwm/
+rm -rf .config/sxhkd/
+vim .xinitrc
+doas mkdir -p /usr/ports/custom
+firefox &
+cd .suckless/st/
+ls -la
+vim config.h
+doas vim config.h
+doas make clean install
+exit
+cd .suckless/st/
+doas vim config.h
+doas make clean install
+exit
+exit
+cd .suckless/dwm/
+doas vim config.h
+doas make clean install
+startx
+cd .suckless/st/
+doas vim config.h
+doas make clean install
+exit
+cd .suckless/st/
+doas vim config.h
+doas make clean install
+exit
+doas vim config.h
+doas make clean install
+exir
+exit
+doas vim config.h
+doas make clean install
+exit
+prt-get search liberation
+prt-get search Liberation
+prt-get search terminus
+cd ~/Downloads/
+ls -la
+tar xvf liberation-fonts-ttf-2.1.5.tar.gz
+ls -la
+mkdir .local
+mkdir .local/share
+mkdir .local/share/font
+mkdir .local/share/fonts
+rmdir .local/share/font
+rm -rf .local/
+cd ..
+mv -r Downloads/liberation-fonts-ttf-2.1.5 .local/share/fonts/
+mv -R Downloads/liberation-fonts-ttf-2.1.5 .local/share/fonts/
+mv Downloads/liberation-fonts-ttf-2.1.5 .local/share/fonts/
+ls -la .local/share/fonts/
+cd .local/share/fonts/
+ls -la
+mkdir LiberationMono
+mv * LiberationMono/
+ls -la
+cd LiberationMono/
+ls -la
+cd ..
+exit
+firefox
+exit
+vim .profile
+vim .xinitrc
+doas reboot
+vim .profile
+source .profile
+. .profile
+. ~/.profile
+source .profile
+vim .profile
+source .profile
+vim .profile
+source .profile
+startx
+startx
+doas vim .config/nushell/env.nu
+doas reboot
+vim .profile
+doas prt-get search tuigreet
+cd .suckless/dmenu/
+ls -la
+vim config.h
+doas vim config.h
+doas make clean install
+pkill dmenu
+doas prt-get depinst fastfetch
+cd /tmp/
+git clone --depth=1 https://github.com/fastfetch-cli/fastfetch.git
+cd fastfetch/
+ls -la
+doas make clean install
+make
+cmake
+cmake ..<\n>cmake --build . --target fastfetch
+cmake
+cd src/
+ls -la
+cd ..
+mkdir build
+mkdir -p build<\n>cd build<\n>cmake ..<\n>cmake --build . --target fastfetch
+mkdir build<\n>cd build<\n>cmake ..<\n>cmake --build . --target fastfetch
+fastfetch
+doas which fastfetch
+ls -la
+doas mv fastfetch /usr/local/bin
+fastfetch.1
+fastfetch
+cd ~
+clear
+fastfetch
+config nu
+doas vim .config/nushell/env.nu
+config nu
+exit
+doas vim .config/nushell/env.nu
+exit
+config nu
+vim .config/nushell/env.nu
+exit
+cd .suckless/dwm/
+doas vim config.h
+startx
+cd .suckless/dwm/
+doas make clean install
+cd .suckless/dwm/
+doas vim config.h
+doas make clean install
+startx
+cd .suckless/dwm/
+doas vim config.h
+doas make clean install
+cd .suckless/dmenu/
+vim config.h
+doas vim config.h
+mkdir /etc/apparmor.d
+doas mkdir /etc/apparmor.d
+doas vim /etc/apparmor.d/firefox-local
+exit
+exit
+firefox
+exit
+doas systemctl restart apparmor.service
+doas rm -rf /etc/apparmor.d/
+firefox
+echo $PATH<\n>
+echo $env.PATH
+rm -rf ~/.cache/dmenu<\n>
+vim .xprofile
+startx
+rm .xprofile
+dmenu_run
+doas which dmenu_run
+doas vim /usr/local/bin/dmenu_run
+mkdir -p ~/.cache/dmenu
+mkdir ~/.cache/dmenu
+dmenu_run
+doas vim /usr/local/bin/dmenu_run
+dmenu_run
+firefox
+exir
+exit
+prt-get search fossil
+doas Downloads/fossil-src-2.28.tar.gz /tmp
+doas mv Downloads/fossil-src-2.28.tar.gz /tmp
+cd /t
+cd /tmp/
+ls -la
+tar xzf fossil-src-2.28.tar.gz
+ls -la
+cd fossil-src-2.28/
+ls -la
+./configure --prefix=/usr --static --with-tcl=1 --with-tcl-private-stubs=1 
+make
+doas make install
+cd ~
+mkdir Repos
+mkdir Projects
+cd Repos/
+git clone --depth=1 git@github.com:ragg967/Repos.git
+ls -al ~/.ssh
+ssh-keygen -t ed25519 -C "ryewatson09@disroot.org"
+cat ~/.ssh/id_ed25519.pub
+git clone --depth=1 git@github.com:ragg967/Repos.git
+cd ..
+cd Projects/
+mkdir c
+cd c
+fossil --version
+fossil help
+rm -rf ~/Repos/
+cd ..
+git clone --depth=1 git@github.com:ragg967/Repos.git
+cd Projects/c/
+fossil clone ~/Repos/arena-allocator.fossil
+ls -la
+rm arena-allocator.fossil
+ls -la ~/Repos/
+fossil help clone
+fossil clone ~/Repos/dodge-game.fossil
+fossil clone ~/Repos/wild-west.fossil
+ls -la
+rm *.fossil
+cd wild-west/
+ls -la
+git clone --depth=1 git@github.com:raysan5/raylib.git
+make
+vim Makefile
+make
+vim Makefile.win
+vim Makefile
+vim Makefile.win
+vim Makefile
+make
+cp Makefile.win Makefile
+ls -la
+vim Makefile
+make
+vim Makefile
+make
+prt-get search glwf
+cd /tmp/
+prt-get search glfw
+git clone --depth=1 git@github.com:glfw/glfw.git
+ls -la
+./configure --prefix=/usr --static
+cmake
+cmake ..
+mkdir build<\n>cd build<\n>cmake ..<\n>cmake --build . --target fastfetch
+ls -la
+cd ..
+rm build/
+cd glfw/
+ls -la
+cmake
+mkdir build<\n>cd build<\n>cmake ..<\n>cmake --build . --target fastfetch
+mkdir build<\n>cd build<\n>cmake ..
+ls -la
+cd ..
+rm build/
+cd ..
+vim CMakeLists.txt
+cmake -D_GLFW_X11
+make
+ls -la
+cmake -B build/ -D GLFW_BUILD_WAYLAND=0
+make
+cd build/
+make
+ls -la
+ls src/
+doas make install
+cd ~/Projects/c/wild-west/
+make
+vim Makefile~
+make
+vim Makefile~
+vim Makefile
+make
+vim Makefile
+make
+vim Makefile
+make
+vim Makefile
+make
+doas which glwf.h
+doas which glfw
+doas which glfw.h
+vim Makefile
+make
+doas which glfw.h
+cd /tmp/
+cd glfw/
+cd build/
+doas make install
+doas which glfw3.h
+cd ~/Projects/c/wild-west/
+vim Makefile
+make
+./shoot
+mv shoot ./bin/
+vim Makefile
+rm bin/shoot
+make
+fossil settgins ignore-glob --value
+fossil settging ignore-glob --value
+fossil settings ignore-glob --value
+fossil -k open ~/Repos/wild-west.fossil
+fossil open ~/Repos/wild-west.fossil
+fossil open -k ~/Repos/wild-west.fossil
+fossil -k open  ~/Repos/wild-west.fossil
+fossil open  ~/Repos/wild-west.fossil
+fossil open  -k ~/Repos/wild-west.fossil
+fossil close
+fossil help
+fossil help update
+fossil open  -k ~/Repos/wild-west.fossil
+fossil add .
+fossil ui
+cp ~/Repos/wild-west.fossil ../
+fossil open  -k ~/Repos/wild-west.fossil
+fossil close
+fossil add .
+fossil forget raylib/
+cp Makfile ../
+cp Makefile ../
+cd ..
+rm -rf wild-west/
+rm wild-west.fossil
+fossil help clone
+fossil clone --no-open ~/Repos/wild-west.fossil
+ls -la
+rm wild-west.fossil
+rm arena-allocator.fossil
+rm arena-allocator/
+rm -rf arena-allocator/
+rm -rf dodge-game/
+mkdir wild-west
+cd wild-west/
+fossil open ~/Repos/wild-west.fossil
+ls -la
+cp ../Makefile .
+ls -la
+git clone --depth=1 git@github.com:glfw/glfw.git
+git clone --depth=1 git@github.com:raysan5/raylib.git
+ls -la
+make
+mkdir bin
+make
+./bin/shoot
+cd ..
+mkdir arena-allocator
+cd arena-allocator/
+fossil open ~/Repos/arena-allocator.fossil
+cd ..
+mkdir jumping-game
+cd jumping-game/
+cd ..
+rm jumping-game/
+mkdir dodge-game
+cd dodge-game/
+fossil open ~/Repos/dodge-game.fossil
+cp ../wild-west/Makefile .
+make
+ls -la
+vim Makefile
+git clone --depth=1 git@github.com:raysan5/raylib.git
+make
+mkdir bin
+make
+make -j15
+rm bin/dodge
+make -j15
+rm bin/dodge
+make -j14
+./bin/dodge
+pkginfo -i
+revdep
+prt-get dependent bspwm<\n>prt-get dependent sxhkd<\n>prt-get dependent rxvt-unicode
+doas which efibootmgr
+doas cp /boot/vmlinuz-6.12.23 /boot/efi/
+blkid /dev/nvme0n1p3
+doas blkid /dev/nvme0n1p3
+lsblk
+doas blkid /dev/nvme0n1p3
+doas efibootmgr --create \
+doas efibootmgr --create --disk /dev/nvme0n1p3 --part 1 --label "CRUX" --loader /boot/efi/vmlinuz-6.12.23  --unicode "root=UUID=ec860762-15e5-4326-b128-026d45a3cdf1"
+doas which efibootmgr
+doas /usr/sbin/efibootmgr --create --disk /dev/nvme0n1p3 --part 1 --label "CRUX" --loader /boot/efi/vmlinuz-6.12.23  --unicode "root=UUID=ec860762-15e5-4326-b128-026d45a3cdf1"
+grep -E "CONFIG_EFI|CONFIG_EFIVAR" /proc/config.gz
+mount
+doas mount -t efivarfs efivarfs /sys/firmware/efi/efivars/
+doas /usr/sbin/efibootmgr --create --disk /dev/nvme0n1 --part 1 --label "CRUX" --loader /boot/efi/vmlinuz-6.12.23  --unicode "root=UUID=ec860762-15e5-4326-b128-026d45a3cdf1"
+doas /usr/sbin/efibootmgr -o 0001,0000,2001,2002,2003
+doas efibootmgr -v
+doas /usr/sbin/efibootmgr -v
+doas mount -t efivarfs efivarfs /sys/firmware/efi/efivars/
+doas /usr/sbin/efibootmgr -o 0001,0000,2001,2002,2003
+doas /usr/sbin/efibootmgr --create --disk /dev/nvme0n1 --part 1 --label "CRUX" --loader /boot/efi/vmlinuz-6.12.23  --unicode "root=UUID=ec860762-15e5-4326-b128-026d45a3cdf1"
+doas /usr/sbin/efibootmgr -o 0001,0000,2001,2002,2003
+doas mkdir /boot/efi/EFI
+doas mkdir /boot/efi/EFI/BOOT
+doas rmdir /boot/efi/efi/
+doas ls -la /boot/efi/efi/
+doas rm -rf /boot/efi/efi/
+doas mkdir /boot/efi/EFI/BOOT
+doas mkdir /boot/efi/EFI
+doas mkdir /boot/efi/EFI/BOOT
+doas cp /boot/vmlinuz-6.12.23 /boot/efi/EFI/BOOT/
+doas mv /boot/efi/EFI/BOOT/vmlinuz-6.12.23 /boot/efi/EFI/BOOT/BOOTX64.EFI
+cd /tmp
+prt-get dependent limine
+prt-get limine
+prt-get help
+prt-get install limine
+prt-get search limine
+doas mkdir /usr/ports/custom/limine
+cd /usr/ports/custom/limine
+doas touch /usr/ports/custom/limine/Pkgfile
+exir
+exit
+vim Pkgfile
+doas vim Pkgfile
+vim Pkgfile
+vim ~/Pkgfile
+doas mv ~/Pkgfile .
+ls -la
+doas chown root Pkgfile
+ls -la
+doas chgrp root Pkgfile
+ls -la
+doas vim Pkgfile
+doas pkgmk -d
+doas vim Pkgfile
+doas pkgmk -d
+doas vim Pkgfile
+doas pkgmk -d
+doas vim Pkgfile
+doas pkgmk -d
+doas vim Pkgfile
+doas pkgmk -d
+doas vim Pkgfile
+doas pkgmk -d
+doas vim Pkgfile
+doas pkgmk -d
+doas vim Pkgfile
+doas pkgmk -d
+clang
+doas vim ../../opt/git/Pkgfile
+prt-get search clang
+prt-get install clang
+doas prt-get install clang
+prt-get install llvm
+prt-get upgrade llvm
+prt-get help
+prt-get update llvm
+cd /usr/ports/custom/limine
+doas vim Pkgfile
+doas pkgmk -d
+doas vim Pkgfile
+doas vim ../../opt/git/Pkgfile
+doas vim Pkgfile
+btop
+top
+doas prt-get install btop
+doas prt-get search btop
+cd /
+cd /tmp/
+git clone --depth=1 git@github.com:aristocratos/btop.git
+cd btop/
+ls -la
+./configure --prefix=/usr --static
+make
+cd /usr/ports/custom/limine
+btop
+doas which btop
+cd /tmp/btop/
+make install
+doas make install
+cd /usr/ports/custom/limine
+btop
+btop --force-utf
+doas vim /etc/locale.gen
+btop
+locale
+echo $SHELL
+echo $env.SHELL
+vim ~/.config/nushell/env.nu
+mv ~/.config/nushell/env.nu ~/.config/nushell/config.nu
+source ~/.config/nushell/config.nu
+btop
+ls -la ~/.config/nushell/
+vim ~/.config/nushell/env.nu
+locale
+doas prt-get update llvm
+vim ~/.config/nushell/config.nu
+config env 
+mv ~/.config/nushell/config.nu ~/.config/nushell/env.nu
+config env
+config nu
+btop
+exit
+btop
+config nu
+config env
+config nu
+mv ~/.config/nushell/config.nu ~/.config/nushell/env.nu
+mv ~/.config/nushell/env.nu ~/.config/nushell/config.nu
+config nu
+mv ~/.config/nushell/env.nu ~/.config/nushell/config.nu
+ls -la ~/.config/nushell/
+vim ~/.config/nushell/env.nu
+vim ~/.config/nushell/history.txt
+config nu
+source ~/.config/nushell/config.nu
+config nu
+source ~/.config/nushell/config.nu
+config nu
+source ~/.config/nushell/config.nu
+exit
+config nu
+source ~/.config/nushell/config.nu
+config nu --doc | nu-highlight | less -R
+config nu
+source ~/.config/nushell/config.nu
+exit
+/tmp/
+git clone https://github.com/AdnanHodzic/auto-cpufreq.git<\n>cd auto-cpufreq && sudo ./auto-cpufreq-installer
+git clone https://github.com/AdnanHodzic/auto-cpufreq.git<\n>cd auto-cpufreq ; sudo ./auto-cpufreq-installer
+git clone https://github.com/AdnanHodzic/auto-cpufreq.git<\n>cd auto-cpufreq ; doas ./auto-cpufreq-installer
+cd ..
+rm -rf auto-cpufreq/
+ls -la
+cd ~
+prt-get search auto-cpufrew
+prt-get search auto-cpufreq
+prt-get search auto-cpu
+prt-get search cpu
+doas prt-get install clang
+ls -la /sys/class/
+tlp
+cd /tmp/
+│  24 │ /sys/class/power_supply   │ dir  │        │ false    │ rwxr-xr-x │         2 │  6288 │ root │ root  │  0 B │ ... │
+git clone https://github.com/AdnanHodzic/auto-cpufreq.git<\n>cd auto-cpufreq ; doas ./auto-cpufreq-installer
+prt-get search python3
+prt-get depsints python3
+prt-get depinst python3
+pip3 install psutil click distro power requests PyGObject<\n>
+prt-get search psutil click distro power requests PyGObject<\n>
+prt-get search psutil<\n>
+prt-get search click<\n>
+prt-get search distro<\n>
+prt-get search power<\n>
+prt-get search requests<\n>
+prt-get search pygobject<\n>
+doas vim /etc/rc.d/power-governor
+rm -rf auto-cpufreq/
+cd ..
+rm -rf auto-cpufreq/
+cd ~
+echo "performance" > /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
+cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
+sh -c 'echo "performance" > /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor'
+doas echo "performance" > /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
+cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
+doas echo "performance" | doas tee /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
+echo "performance" | doas tee /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
+cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
+doas vim /etc/rc.conf
+exit
+doas pkgmk -d
+doas prt-get install ld.lld
+doas prt-get install ld
+ld.ll
+ld.llclear
+clear
+doas pkgmk -d
+doas prt-get install lld
+doas vim Pkgfile
+doas pkgmk -d
+doas pkgadd `limine#12.3.3-1.pkg.tar.gz`
+doas pkgadd -f `limine#12.3.3-1.pkg.tar.gz`
+exit
+config nu
+exit
+config nu
+exit
+cd /boot/
+tree
+doas prt-get install tree
+cd /tmp/
+git clone --depth=1 git@github.com:peteretelej/tree.git
+cd tree/
+ls -la
+cargo build --release
+doas mv target/release/tree /usr/local/bin/
+tree
+cd ..
+rm -rf tree/
+cd /boot
+tree
+ls
+tree
+ls -la
+cd grub/
+ls -la
+cd ..
+tree --help
+tree -C
+tree --help
+tree -H
+tree -H 
+doas prt-get install xclip
+xclip
+doas prt-get install xclip
+cd /tmp/
+git clone --depth=1 git@github.com:astrand/xclip.git
+cd xclip/
+ls -la
+./install-sh
+doas ./install-sh
+./configure --prefix=/usr --static
+xclip
+make
+ls -la
+./bootstrap
+./configure --prefix=/usr --static
+./configure --prefix=/usr
+make
+doas make install
+xclip
+cd /boot
+tree -H | xclip -selection clipboard
+ls -l /boot/initramfs*
+mkinitrd --help
+mkinitrd
+doas mkinitrd
+doas which mkinitrd
+which dracut
+doas dracut --force /boot/initramfs-6.12.23.img 6.12.23
+doas mkdir /boot/EFI/BOOT<\n>doas cp /usr/share/limine/BOOTX64.EFI /boot/EFI/BOOT/BOOTX64.EFI
+doas mkdir /boot/EFI
+doas mkdir /boot/EFI/BOOT<\n>doas cp /usr/share/limine/BOOTX64.EFI /boot/EFI/BOOT/BOOTX64.EFI
+pkgdb -l limine
+pkg info limine
+doas which limine
+find /usr -name "*.efi" 2>/dev/null | grep -i limine
+doas find /usr -name "*.efi" 2>/dev/null | grep -i limine
+doas find /usr -name BOOTX64.EFI 2>/dev/null
+pkgdb -l limine
+doas pkgadd /usr/ports/custom/limine/limine#12.3.3-1.pkg.tar.gz
+doas find /usr -name "*.efi" 2>/dev/null | grep -i limine
+doas find /usr -name "*.efi" | grep -i limine
+cat /usr/ports/custom/limine/Pkgfile | grep configure
+ls /usr/share/limine
+cat /usr/ports/custom/limine/Pkgfile
+pkgdb -f limine | grep -i efi
+pkg info -l limine | grep -i efi
+find /usr/ports/custom/limine/work -name "*.efi" -type f
+tar tf /usr/ports/custom/limine/limine#12.3.3-1.pkg.tar.gz | grep -i efi
+^find /usr/ports/custom/limine/work -name "*.efi" -type f
+cd /usr/ports/custom/limine
+doas vim Pkgfile
+doas pkgmk -d -f   # -f forces rebuild even if version same<\n>doas pkgadd -u limine   # upgrade the package
+doas pkgmk -d -f   # -f forces rebuild even if version same<\n>doas pkgadd `limine#12.3.3-1.pkg.tar.gz`   # upgrade the package
+doas pkgmk -d -f   # -f forces rebuild even if version same<\n>doas pkgadd -u `limine#12.3.3-1.pkg.tar.gz`   # upgrade the package
+^find /usr/ports/custom/limine/work -name "*.efi" -type f
+tar tf /usr/ports/custom/limine/limine#12.3.3-1.pkg.tar.gz | grep -i efi
+doas pkgadd -u `limine#12.3.3-1.pkg.tar.gz`   # upgrade the package
+doas pkgmk -d -f   # -f forces rebuild even if version same
+doas pkgadd -u `limine#12.3.3-1.pkg.tar.gz`   # upgrade the package
+^find /usr/ports/custom/limine/work/limine-12.3.3 -name "BOOTX64.EFI" -type f
+ls /usr/ports/custom/limine/work/limine-12.3.3/bin/*.efi
+cd ..
+rm -rf limine/
+doas rm -rf limine/
+cd /tmp/
+git clone --depth=1 git@github.com:Limine-Bootloader/Limine.git
+cd Limine/
+ls -la
+cd /usr/ports/custom/limine
+cd ..
+rm -rf limine/
+curl -LO https://github.com/Limine-Bootloader/Limine/releases/download/v12.3.3/limine-12.3.3.tar.gz
+tar xf limine-12.3.3.tar.gz<\n>cd limine-12.3.3
+./configure --prefix=/usr<\n>make
+doas mkdir -p /boot/EFI/BOOT<\n>doas cp bin/BOOTX64.EFI /boot/EFI/BOOT/BOOTX64.EFI
+^find . -name "*.efi" -type f
+^ls -l bin/
+make limine-uefi
+tree -H | xclip -selection clipboard
+make limine-uefi
+vim Makefile
+ls -la
+vim GNUmakefile
+mtools
+./configure --prefix=/usr CC=clang LD_FOR_TARGET=lld<\n>make limine-uefi
+make clean<\n>make V=1
+cat GNUmakefile | grep -i uefi
+cat GNUmakefile | grep -i uefi | xclip --selection clipboard
+cat GNUmakefile | grep -i uefi | xclip --section clipboard
+cat GNUmakefile | grep -i uefi | xclip -selection clipboard
+make limine-uefi-x86-64
+ls -l bin/BOOTX64.EFI
+ls -l bin/
+make limine-uefi-x86-64
+./configure --prefix=/usr CC=clang LD_FOR_TARGET=ld.lld<\n>make clean<\n>make limine-uefi-x86-64
+doas cp bin/BOOTX64.EFI /boot/EFI/BOOT/
+cd /boot/
+tree -H | xclip -selection clipboard
+blkid /dev/nvme0n1p3
+lsblk
+blkid /dev/nvme0n1p3
+doas blkid /dev/nvme0n1p3
+doas vim /boot/efi/limine.conf
+doas efibootmgr --create --label "Limine" --loader /EFI/BOOT/BOOTX64.EFI
+doas efibootmgr -v
+doas /usr/sbin/efibootmgr --create --label "Limine" --loader /EFI/BOOT/BOOTX64.EFI
+doas /usr/sbin/efibootmgr -v
+ls /sys/firmware/efi
+doas mount -t efivarfs efivarfs /sys/firmware/efi/efivars
+doas mount -o remount,rw /sys/firmware/efi/efivars
+doas /usr/sbin/efibootmgr --create --label "Limine" --loader /EFI/BOOT/BOOTX64.EFI
+tree -H | xclip -selection clipboard
+doas cp /boot/EFI/BOOT/BOOTX64.EFI /boot/efi/EFI/BOOT/BOOTX64.EFI
+doas mkdir -p /boot/efi/EFI/BOOT<\n>doas cp /boot/EFI/BOOT/BOOTX64.EFI /boot/efi/EFI/BOOT/BOOTX64.EFI
+doas cp /boot/efi/limine.conf /boot/efi/EFI/BOOT/limine.conf
+ls -l /boot/efi/EFI/BOOT/
+doas /usr/sbin/efibootmgr --create --label "Limine" --loader /EFI/BOOT/BOOTX64.EFI
+doas /usr/sbin/efibootmgr --create --label "Limine" --loader efi/EFI/BOOT/BOOTX64.EFI
+mount | grep efivarfs
+ls -l /sys/firmware/efi/efivars
+doas efibootmgr --create --label "Limine" --loader /EFI/BOOT/BOOTX64.EFI --disk /dev/nvme0n1 --part 1
+doas /usr/sbin/efibootmgr --create --label "Limine" --loader /EFI/BOOT/BOOTX64.EFI --disk /dev/nvme0n1 --part 1
+doas reboot
+config nu
+vim .config/nushell/config.nu
+source ~/.config/nushell/config.nu
+vim .config/nushell/config.nu
+/usr/local/bin/vim .config/nushell/config.nu
+/usr/bin/vim .config/nushell/config.nu
+source ~/.config/nushell/config.nu
+/usr/bin/vim .config/nushell/config.nu
+source ~/.config/nushell/config.nu
+vim
+source ~/.config/nushell/config.nu
+vim .config/nushell/config.nu
+source ~/.config/nushell/config.nu
+vim .config/nushell/config.nu
+/usr/bin/vim .config/nushell/config.nu
+source ~/.config/nushell/config.nu
+vim .config/nushell/config.nu
+doas rm -f /boot/efi/limine.conf /boot/efi/EFI/BOOT/limine.conf
+sudo tee /boot/efi/limine.conf << 'EOF'<\n>timeout: 5<\n><\n>CRUX:<\n>    protocol: linux<\n>    kernel_path: uuid:ec860762-15e5-4326-b128-026d45a3cdf1:/boot/vmlinuz-6.12.23<\n>    kernel_cmdline: root=UUID=ec860762-15e5-4326-b128-026d45a3cdf1 ro quiet<\n>    module_path: uuid:ec860762-15e5-4326-b128-026d45a3cdf1:/boot/initramfs-6.12.23.img<\n>EOF
+doas tee /boot/efi/limine.conf << 'EOF'<\n>timeout: 5<\n><\n>CRUX:<\n>    protocol: linux<\n>    kernel_path: uuid:ec860762-15e5-4326-b128-026d45a3cdf1:/boot/vmlinuz-6.12.23<\n>    kernel_cmdline: root=UUID=ec860762-15e5-4326-b128-026d45a3cdf1 ro quiet<\n>    module_path: uuid:ec860762-15e5-4326-b128-026d45a3cdf1:/boot/initramfs-6.12.23.img<\n>EOF
+doas which sudo
+sudo tee /boot/efi/limine.conf << 'EOF'<\n>timeout: 5<\n><\n>CRUX:<\n>    protocol: linux<\n>    kernel_path: uuid:ec860762-15e5-4326-b128-026d45a3cdf1:/boot/vmlinuz-6.12.23<\n>    kernel_cmdline: root=UUID=ec860762-15e5-4326-b128-026d45a3cdf1 ro quiet<\n>    module_path: uuid:ec860762-15e5-4326-b128-026d45a3cdf1:/boot/initramfs-6.12.23.img<\n>EOF
+doas tee /boot/efi/limine.conf << 'EOF'<\n>timeout: 5<\n><\n>CRUX:<\n>    protocol: linux<\n>    kernel_path: uuid:ec860762-15e5-4326-b128-026d45a3cdf1:/boot/vmlinuz-6.12.23<\n>    kernel_cmdline: root=UUID=ec860762-15e5-4326-b128-026d45a3cdf1 ro quiet<\n>    module_path: uuid:ec860762-15e5-4326-b128-026d45a3cdf1:/boot/initramfs-6.12.23.img<\n>EOF
+$"timeout: 5<\n><\n>CRUX:<\n>    protocol: linux<\n>    kernel_path: uuid:ec860762-15e5-4326-b128-026d45a3cdf1:/boot/vmlinuz-6.12.23<\n>    kernel_cmdline: root=UUID=ec860762-15e5-4326-b128-026d45a3cdf1 ro quiet<\n>    module_path: uuid:ec860762-15e5-4326-b128-026d45a3cdf1:/boot/initramfs-6.12.23.img" | doas tee /boot/efi/limine.conf > /dev/null
+doas cp /boot/efi/limine.conf /boot/efi/EFI/BOOT/limine.conf
+doas cat /boot/efi/limine.conf
+doas reboot
+vim .config/nushell/config.nu
+config nu
+doas reboot
+ls -la /
+config nu
+source ~/.config/nushell/config.nu
+doas tee /boot/efi/limine.conf << 'EOF'<\n>timeout: 5<\n><\n>CRUX:<\n>    protocol: linux<\n>    root_path: uuid(ec860762-15e5-4326-b128-026d45a3cdf1)<\n>    kernel_path: /boot/vmlinuz-6.12.23<\n>    module_path: /boot/initramfs-6.12.23.img<\n>    kernel_cmdline: root=UUID=ec860762-15e5-4326-b128-026d45a3cdf1 ro quiet<\n>EOF<\n><\n>doas cp /boot/efi/limine.conf /boot/efi/EFI/BOOT/limine.conf
+'timeout: 5<\n><\n>CRUX:<\n>    protocol: linux<\n>    root_path: uuid(ec860762-15e5-4326-b128-026d45a3cdf1)<\n>    kernel_path: /boot/vmlinuz-6.12.23<\n>    module_path: /boot/initramfs-6.12.23.img<\n>    kernel_cmdline: root=UUID=ec860762-15e5-4326-b128-026d45a3cdf1 ro quiet' | doas tee /boot/efi/limine.conf<\n>doas cp /boot/efi/limine.conf /boot/efi/EFI/BOOT/limine.conf
+cat /boot/efi/limine.conf
+doas tee /boot/limine.conf << 'EOF'<\n>timeout: 5<\n><\n>CRUX:<\n>    protocol: linux<\n>    path: boot():/boot/vmlinuz-6.12.23<\n>    module_path: boot():/boot/initramfs-6.12.23.img<\n>    cmdline: root=UUID=ec860762-15e5-4326-b128-026d45a3cdf1 ro quiet<\n>EOF
+'timeout: 5<\n><\n>CRUX:<\n>    protocol: linux<\n>    path: boot():/boot/vmlinuz-6.12.23<\n>    module_path: boot():/boot/initramfs-6.12.23.img<\n>    cmdline: root=UUID=ec860762-15e5-4326-b128-026d45a3cdf1 ro quiet' | doas tee /boot/limine.conf
+doas cp /boot/limine.conf /boot/efi/limine.conf<\n>doas cp /boot/limine.conf /boot/efi/EFI/BOOT/limine.conf
+cat /boot/limine.conf
+doas rm /boot/efi/limine.conf /boot/efi/EFI/BOOT/limine.conf
+cat /boot/limine.conf
+cd /boot/
+tree -H | xclip -selection clipboard
+'timeout: 5<\n><\n>CRUX:<\n>    protocol: linux<\n>    path: uuid:ec860762-15e5-4326-b128-026d45a3cdf1:/boot/vmlinuz-6.12.23<\n>    module_path: uuid:ec860762-15e5-4326-b128-026d45a3cdf1:/boot/initramfs-6.12.23.img<\n>    cmdline: root=UUID=ec860762-15e5-4326-b128-026d45a3cdf1 ro quiet' | doas tee /boot/efi/limine.conf
+doas cp /boot/efi/limine.conf /boot/efi/EFI/BOOT/limine.conf
+doas rm /boot/limine.conf
+doas rm -rf /boot/EFI
+cd /boot/
+tree -H | xclip -selection clipboard
+cat /boot/limine.conf
+cat /boot/efi/limine.conf
+blkid
+lsblk -f
+strings /boot/efi/EFI/BOOT/BOOTX64.EFI | grep -i limine | head
+doas strings /boot/efi/EFI/BOOT/BOOTX64.EFI | grep -i limine | head
+find /boot -name "limine.conf" -o -name "*.conf"
+ls -R /boot/limine
+find /boot | where name =~ "limine.conf"
+find /boot | where name =~ "conf"
+find /boot/limine
+ls /boot/limine
+open /boot/efi/EFI/BOOT/limine.conf
+open /boot/efi/limine.conf
+doas strings /boot/efi/EFI/BOOT/BOOTX64.EFI | grep -i "revision"
+vim /boot/efi/limine.conf
+doas vim /boot/efi/limine.conf
+doas vim /boot/efi/EFI/BOOT/limine.conf
+limine --version
+cd /boot/
+doas vim /boot/efi/EFI/BOOT/limine.conf
+doas vim /boot/efi/limine.conf
+doas efibootmgr -v
+doas /usr/sbin/efibootmgr -v
+doas vim /etc/rc.conf
+doas vim /etc/fstab
+sudo mount -o remount,rw /sys/firmware/efi/efivars<\n>
+doas mount -o remount,rw /sys/firmware/efi/efivars<\n>
+sudo doas mount -t efivarfs efivarfs /sys/firmware/efi/efivars
+doas mount -t efivarfs efivarfs /sys/firmware/efi/efivars
+doas efibootmgr -v
+config nu
+source ~/.config/nushell/config.nu
+doas efibootmgr -v
+limine --version
+vim efi/limine.conf
+doas vim efi/limine.conf
+doas cp efi/limine.conf /boot/efi/EFI/BOOT/limine.conf
+cd /boot/
+vim efi/limine.conf
+doas vim efi/limine.conf
+doas vim efi/EFI/BOOT/limine.conf
+doas efibootmgr -b 0002 -B
+doas rm -f /boot/efi/EFI/BOOT/BOOTX64.EFI<\n>doas rm -f /boot/efi/EFI/BOOT/limine.conf<\n>doas rm -f /boot/efi/limine.conf
+doas rm -rf /boot/limine
+doas efibootmgr -o 0000,0001,2001,2002,2003
+doas grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=grub<\n>doas grub-mkconfig -o /boot/grub/grub.cfg
+doas efibootmgr -v
+cd /boot/
+tree -H | xclip -selection clipboard
+tree -H
+ls -la
+cd efi/
+ls -la
+rm -rf EFI/
+doas rm -rf EFI/
+cd /
+doas grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=grub<\n>doas grub-mkconfig -o /boot/grub/grub.cfg
+tree -H | xclip -selection clipboard
+doas tree -H | xclip -selection clipboard
+cd /boot/
+tree -H | xclip -selection clipboard
+doas rm -f /boot/efi/EFI/BOOT/BOOTX64.EFI<\n>doas rm -f /boot/efi/EFI/BOOT/limine.conf<\n>doas rm -f /boot/efi/limine.conf<\n>doas rm -f /boot/efi/limine.conf~<\n>doas rm -rf /boot/efi/limine
+doas find /boot/efi -iname "*limine*"
+doas rm /boot/efi/.limine.conf.un~<\n>
+doas efibootmgr -o 0000,0001,2001,2002,2003
+doas efibootmgr --create \<\n>  --disk /dev/nvme0n1 \<\n>  --part 1 \<\n>  --label "CRUX" \<\n>  --loader '\vmlinuz-6.12.23' \<\n>  --unicode 'root=UUID=ec860762-15e5-4326-b128-026d45a3cdf1 ro initrd=\initramfs-6.12.23.img'
+doas efibootmgr --create --disk /dev/nvme0n1 --part 1 --label "CRUX" --loader '\vmlinuz-6.12.23' --unicode 'root=UUID=ec860762-15e5-4326-b128-026d45a3cdf1 ro initrd=\initramfs-6.12.23.img'
+doas mkdir -p /boot/efi/EFI/CRUX<\n>doas cp /boot/vmlinuz-6.12.23 /boot/efi/EFI/CRUX/<\n>doas cp /boot/initramfs-6.12.23.img /boot/efi/EFI/CRUX/
+doas efibootmgr -b 0002 -B
+doas efibootmgr --create \<\n>  --disk /dev/nvme0n1 \<\n>  --part 1 \<\n>  --label "CRUX EFISTUB" \<\n>  --loader '\EFI\CRUX\vmlinuz-6.12.23' \<\n>  --unicode 'root=UUID=ec860762-15e5-4326-b128-026d45a3cdf1 ro initrd=\EFI\CRUX\initramfs-6.12.23.img'
+doas efibootmgr --create --disk /dev/nvme0n1 --part 1 --label "CRUX EFISTUB" --loader '\EFI\CRUX\vmlinuz-6.12.23' --unicode 'root=UUID=ec860762-15e5-4326-b128-026d45a3cdf1 ro initrd=\EFI\CRUX\initramfs-6.12.23.img'
+doas efibootmgr -v
+doas efibootmgr -b 0002 -B
+doas mkdir -p /boot/efi/EFI/CRUX<\n>doas cp /boot/vmlinuz-6.12.23 /boot/efi/EFI/CRUX/<\n>doas cp /boot/initramfs-6.12.23.img /boot/efi/EFI/CRUX/
+doas efibootmgr --create --disk /dev/nvme0n1 --part 1 --label "CRUX EFISTUB" --loader '\EFI\CRUX\vmlinuz-6.12.23' --unicode 'root=UUID=ec860762-15e5-4326-b128-026d45a3cdf1 ro initrd=\EFI\CRUX\initramfs-6.12.23.img'
+doas efibootmgr -b 0002 -B
+/boot/efi/EFI/CRUX/vmlinuz-6.12.23<\n>/boot/efi/EFI/CRUX/initramfs-6.12.23.img
+doas efibootmgr --create --disk /dev/nvme0n1 --part 1 --label "CRUX EFISTUB" --loader '\EFI\CRUX\vmlinuz-6.12.23' --unicode 'root=UUID=ec860762-15e5-4326-b128-026d45a3cdf1 ro initrd=\EFI\CRUX\initramfs-6.12.23.img'
+file /boot/efi/EFI/CRUX/vmlinuz-6.12.23
+doas /bin/sh
+doas vim /usr/local/bin/UKI-builder
+doas vim /usr/local/bin/UKI-builder.sh
+efibootmgr -o 0003,0001,0000,2001,2002,2003
+doas efibootmgr -o 0003,0001,0000,2001,2002,2003
+efibootmgr
+bootmgr
+efibootmgr
+efibootmgr -v
+efibootmgr -b 0001 -B
+cd Projects/c/
+ls -la
+la
+ls
+rm Makefile
+cd dodge-game/
+./bin/dodge
+make
+vim Makefile
+make
+rm bin/dodge
+make
+./bin/dodge
+doas which glfw3.h
+doas which glfw3
+vim main.c
+ls -la
+./bin/dodge
+cd /tmp/
+git clone --depth=1 git@github.com:glfw/glfw.git
+ls -la
+cd glfw/
+ls -la
+cmake -B build/ -D GLFW_BUILD_WAYLAND=0
+cd build/
+./configure --prefix=/usr --static
+make
+doas make install
+cd ~/Projects/c/wild-west/
+./bin/dodge
+cd ..
+cd dodge-game/
+./bin/dodge
+make
+./bin/dodge
+glxinfo | grep "OpenGL"
+doas prt-get install mesa
+doas prt-get install mesa-devel
+fastfetch
+modprobe i915
+modprobe xe
+glxinfo | head
+ls /dev/dri
+ldconfig -p | grep -E "GL|glx"
+ls /usr/lib/dri | head
+prt-get update<\n>prt-get upgrade mesa
+doas prt-get upgrade mesa
+btop
+config nu
+btop
+source ~/.config/nushell/config.nu
+btop
+doas /etc/rc.d/power-governor
+doas ./etc/rc.d/power-governor
+doas /etc/rc.d/power-governor
+doas vim /etc/rc.d/power-governor
+doas prt-get update mesa
+ls -l /etc/rc.d/power-governor<\n>doas /etc/rc.d/power-governor start
+doas chmod +x /etc/rc.d/power-governor
+doas vim /etc/rc.d/power-governor
+ls -l /etc/rc.d/power-governor<\n>doas /etc/rc.d/power-governor start
+cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_driver
+./bin/dodge
+cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
+doas vim /etc/rc.d/power-governor
+ls -l /etc/rc.d/power-governor<\n>doas /etc/rc.d/power-governor start
+cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
+cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_driver
+exit
+doas prt-get install mesa mesa-dri mesa-libgl
+ls /usr/lib/xorg/modules/extensions | grep glx
+glxinfo 2>&1 | head -50
+glxinfo out+err> /dev/null | head -50
+doas prt-get install mesa-demos
+glxinfo
+cd /tmp/
+git clone https://gitlab.freedesktop.org/mesa/mesa.git<\n>cd mesa<\n><\n>meson setup build \<\n>  -Dplatforms=x11 \<\n>  -Dglx=dri \<\n>  -Dgallium-drivers=iris,crocus,swrast \<\n>  -Dgallium-glx=dri \<\n>  -Dglvnd=true \<\n>  -Dllvm=enabled<\n><\n>ninja -C build<\n>doas ninja -C build install
+git clone --depth=1 https://gitlab.freedesktop.org/mesa/mesa.git
+cd mesa/
+meson setup build \<\n>  -Dplatforms=x11 \<\n>  -Dglx=dri \<\n>  -Dgallium-drivers=iris,crocus,swrast \<\n>  -Dgallium-glx=dri \<\n>  -Dglvnd=true \<\n>  -Dllvm=enabled
+meson setup build -Dplatforms=x11 -Dglx=dri -Dgallium-drivers=iris,crocus,swrast -Dgallium-glx=dri -Dglvnd=true -Dllvm=enabled
+meson setup build \<\n>  -Dplatforms=x11 \<\n>  -Dglx=dri \<\n>  -Dgallium-drivers=iris,crocus,llvmpipe \<\n>  -Dgallium-glx=dri \<\n>  -Dglvnd=true \<\n>  -Dllvm=enabled
+(meson setup build<\n>  -Dplatforms=x11<\n>  -Dglx=dri<\n>  -Dgallium-drivers=iris,crocus,llvmpipe<\n>  -Dgallium-glx=dri<\n>  -Dglvnd=true<\n>  -Dllvm=enabled)
+meson setup build \<\n>  -Dplatforms=x11 \<\n>  -Dglx=dri \<\n>  -Dgallium-drivers=iris,crocus,llvmpipe \<\n>  -Dglvnd=enabled \<\n>  -Dllvm=enabled
+meson setup build -Dplatforms=x11 -Dglx=dri -Dgallium-drivers=iris,crocus,llvmpipe -Dglvnd=enabled -Dllvm=enabled
+ls -l /etc/rc.d/power-governor<\n>doas /etc/rc.d/power-governor start
+exit
+doas prt-get install glslang
+doas prt-get install glslang shaderc
+meson setup build -Dplatforms=x11 -Dglx=dri -Dgallium-drivers=iris,crocus,llvmpipe -Dglvnd=enabled -Dllvm=enabled
+doas prt-get install bindgen
+cargo install bindgen-cli
+meson setup build -Dplatforms=x11 -Dglx=dri -Dgallium-drivers=iris,crocus,llvmpipe -Dglvnd=enabled -Dllvm=enabled
+cd ..
+rm -rf mesa/
+doas prt-get install mesa
+cargo uninstall bindgen-cli
+doas prt-get uninstall glslang
+doas prt-get deinstall glslang
+doas prt-get remove glslang
+cd ~/Projects/c/dodge-game/
+vim main.c
+vim Makefile
+btop
+exit
+make
+./bin/dodge
+startx
+cd ~/Projects/c/dodge-game/
+./bin/dodge
+# Does glxinfo work at all?<\n>glxinfo | head -20<\n><\n># Is libGL present?<\n>ls /usr/lib/libGL*<\n><\n># Check if X server has GLX loaded<\n>grep -i glx /var/log/Xorg.0.log<\n><\n># Quick test: force software rendering to isolate driver vs GLX issue<\n>LIBGL_ALWAYS_SOFTWARE=1 ./bin/dodge
+# Confirm the directory is empty/missing<\n>ls /usr/lib/dri/<\n><\n># Check what mesa package you actually have installed<\n>pkginfo -i | grep -i mesa
+doas prt-get remove mesa
+doas prt-get install mesa
+# Find where the port lives<\n>find /usr/ports -name Pkgfile | xargs grep -l mesa | head -5<\n><\n># Most likely one of:<\n>cat /usr/ports/opt/mesa/Pkgfile<\n>cat /usr/ports/core/mesa/Pkgfile
+# If the build directory is still around<\n>find /var/lib/pkg -name "*.footprint" | xargs grep -l "^mesa$" 2>/dev/null<\n>find /usr/ports -path "*/mesa/work" -name "meson-info" 2>/dev/null<\n><\n># Or just check what .so files mesa DID install<\n>pkginfo -l mesa | grep -E "\.(so|la)$" | head -30<\n>pkginfo -l mesa | grep dri
+# Also worth checking — llvm is a dep for swrast's LLVMpipe backend<\n>pkginfo -i | grep -i llvm
+# ^ forces the external system binary<\n>^find /usr/ports -name "Pkgfile" | lines | where { |f| (open $f) | str contains "mesa" }<\n><\n># Simpler: just look for a mesa port directly<\n>^find /usr/ports -name "Pkgfile" | lines | where { |f| $f | str contains "mesa" }<\n><\n># Check what mesa actually installed (no find needed)<\n>pkginfo -l mesa | lines | where { |it| $it =~ "dri" }<\n>pkginfo -l mesa | lines | where { |it| $it =~ "\\.so" } | first 30
+# Once you find the port path:<\n>cat /usr/ports/opt/mesa/Pkgfile<\n># or check CRUX's contrib/opt ports<\n>^ls /usr/ports/opt/ | lines | where { |it| $it | str contains "mesa" }<\n>^ls /usr/ports/core/ | lines | where { |it| $it | str contains "mesa" }
+# Find where the mesa port actually lives<\n>^find /usr/ports -type d -name "mesa"<\n><\n># Also check if it's maintained separately<\n>^find / -path /proc -prune -o -path /sys -prune -o -name "Pkgfile" -print | lines | where { |f| $f | str contains "mesa" }
+cat /usr/ports/xorg/mesa/Pkgfile
+# Install libclc if missing (unlocks iris)<\n>prt-get depinst libclc<\n><\n># Then edit the Pkgfile to add swrast unconditionally<\n>sudo nano /usr/ports/xorg/mesa/Pkgfile
+# Install libclc if missing (unlocks iris)<\n>doas prt-get depinst libclc<\n><\n># Then edit the Pkgfile to add swrast unconditionally<\n>doas vim /usr/ports/xorg/mesa/Pkgfile
+doas vim /usr/ports/xorg/mesa/Pkgfile
+cd /usr/ports/xorg/mesa<\n>doas pkgmk -f -d<\n>doas pkgadd -u mesa#26.1.3-1.pkg.tar.gz
+doas pkgmk -f -d -is
+vim Pk
+doas vim Pkgfile
+doas pkgmk -f -d<\n>doas pkgadd -u mesa#26.1.3-1.pkg.tar.gz
+doas pkgmk -f -d -is
+# Check for cached package tarballs<\n>ls /usr/ports/xorg/mesa/*.pkg.tar.gz<\n><\n># Also check when mesa was last touched<\n>ls -la /usr/ports/xorg/mesa/
+doas ports -u
+cd ~
+doas prt-get install mesa -f
+doas prt-get install mesa -force
+doas prt-get install mesa --force
+doas prt-get install -f mesa
+doas prt-get update mesa
+cd Projects/c/
+cd dodge-game/
+./bin/dodge
+cd dodge-game/
+cd Projects/c/
+cd dodge-game/
+./bin/dodge
+doas reoot
+cd Projects/c/
+cd dodge-game/
+./bin/dodge
+ls /usr/lib/dri/
+cd /usr/ports/xorg/mesa
+doas vim Pkgfile
+doas pkgmk -d<\n>doas pkgadd -u mesa#26.1.3-1.pkg.tar.gz
+doas pkgmk -d -is<\n>doas pkgadd -u mesa#26.1.3-1.pkg.tar.gz
+doas pkgadd -u `mesa#26.1.3-1.pkg.tar.gz`
+ls /usr/lib/dri/   # should now show llvmpipe_dri.so and softpipe_dri.so
+startx
+cd ~/Projects/c/dodge-game<\n>./bin/dodge
+cd ~/.suckless/dwm/
+mkdir scrpits
+cd scrpits/
+vim dwmstatus.sh
+./dwmstatus.sh
+chmod +x dwmstatus.sh
+./dwmstatus.sh
+vim dwmstatus.sh
+pkill dwmstatus.sh
+./dwmstatus.sh
+./dwmstatus.sh &
+vim .xinitrc
+startx
+./.suckless/dwm/scrpits/dwmstatus.sh
+cd ~/.suckless/dwm/
+cd scrpits/
+vim dwmstatus.sh
+./.suckless/dwm/scrpits/dwmstatus.sh
+vim .xinitrc
+startx
+vim .xinitrc
+startx
+vim .xinitrc
+pgrep -a dwmstatus
+vim .xinitrc
+startx
+chmod +x ~/.suckless/dwm/scripts/dwmstatus.sh
+doas chmod +x ~/.suckless/dwm/scripts/dwmstatus.sh
+mv .suckless/dwm/scrpits/ .suckless/dwm/scripts
+cat /etc/localtime
+ln -sf /usr/share/zoneinfo/America/Los_Angeles /etc/localtime
+doas ln -sf /usr/share/zoneinfo/America/Los_Angeles /etc/localtime
+cat /etc/localtime
+cd .suckless/dwm/scripts/
+vim dwmstatus.sh
+pkill dwmstatus ; ~/.suckless/dwm/scripts/dwmstatus.sh &
+startx
+cd .suckless/dwm/
+mkdir patches
+mv ~/Downloads/dwm-backlight-20241021-351084d.diff .
+rm ~/Downloads/liberation-fonts-ttf-2.1.5.tar.gz
+rm `~/Downloads/limine-12.3.3(1).tar.gz`
+rm `~/Downloads/limine-12.3.3(2).tar.gz`
+rm ~/Downloads/limine-12.3.3.tar.gz
+mv dwm-backlight-20241021-351084d.diff patches/
+git am patches/dwm-backlight-20241021-351084d.diff
+git config --global user.email "rye@disroot.org"
+git config --global user.name "Riley Watson"
+git am patches/dwm-backlight-20241021-351084d.diff
+doas make clean install
+ls -la
+make
+make clean ; make ; doas make install
+exit
+job list
+vim ~/.xinitrc
+mv ~/Downloads/dwm-colorbar-6.3.diff patches/
+git am patches/dwm-colorbar-6.3.diff
+git am --show-curren-patch=diff
+git am --show-current-patch=diff
+git am patches/dwm-colorbar-6.3.diff
+git --help
+patch -R -p1 < patches/dwm-backlight-20241021-351084d.diff
+patch -R -p1 < patches/dwm-colorbar-6.3.diff
+patch -p1 < patches/dwm-backlight-20241021-351084d.diff
+patch -p1 < patches/dwm-colorbar-6.3.diff
+git am patches/dwm-colorbar-6.3.diff
+git am --show-current-patch=diff
+git fetch
+git apply patches/dwm-backlight-20241021-351084d.diff
+git apply patches/dwm-colorbar-6.3.diff
+git pull
+git --help
+git reset
+ls -la
+vim config.h
+ls -la
+patch -p1 < patches/dwm-colorbar-6.3.diff
+patch -p1 < patches/dwm-colorbar-6.3.diff | xclip --selection clipboard
+patch -p1 < patches/dwm-colorbar-6.3.diff | xclip -selection clipboard
+patch -p1 | patches/dwm-colorbar-6.3.diff | xclip -selection clipboard
+cd .suckless/dwm/
+open patches/dwm-colorbar-6.3.diff | patch -p1
+vim dwm.c.rej
+open patches/dwm-colorbar-6.3.diff | patch -p1
+cat VERSION
+ls -la
+vim README
+top
+clear
+dwm --version
+dwm -v
+ls -la
+rm *.rej
+ls -la
+rm patches/dwm-colorbar-6.3.diff
+open patches/dwm-backlight-20241021-351084d.diff | patch -p1
+open patches/dwm-backlight-20241021-351084d.diff | patch -p1 -R
+open patches/dwm-backlight-20241021-351084d.diff | patch -p1
+cd ..
+rm -rf dwm/
+git clone --depth=1 https://github.com/bakkeby/dwm-flexipatch
+mv dwm-flexipatch/ dwm/
+cd dwm/
+ls -la
+vim config.h
+ls -la
+cp config.def.h config.h
+vim config.h
+cp patches.def.h patches.h
+vim patches.h
+make clean ; make ; doas make install
+vim config.h
+make clean ; make ; doas make install
+cd .suckless/dwm/
+vim config.h
+make clean ; make ; doas make install
+vim config.h
+make clean ; make ; doas make install
+startx
+cd .suckless/dwm/
+vim config.h
+make clean ; make ; doas make install
+vim config.h
+make clean ; make ; doas make install
+cd .suckless/dwm/
+vim config.h
+cd ..
+cd dwm/
+cd ..
+cd dmenu/
+ls -la
+vim config.h
+doas vim config.h
+make clean ; make ; doas make install
+startx
+cd .suckless/dmenu/
+ls -la
+doas vim config.h
+dmenu_run
+exit
+mkdir .local/bin
+exit
+vim ~/.local/bin/dmenu_run
+cd ~
+chmod +x .local/bin/dmenu_run
+config nu
+source ~/.config/nushell/config.nu
+fire
+SHELL=/bin/sh dmenu_run
+firefox 
+fire
+firefo
+which dmenu_run
+echo $env.PATH
+config nu
+source ~/.config/nushell/config.nu
+startx
+which dmenu_run
+dmenu_run
+which dmenu_run | xclip -selection clipboard
+sh -c 'echo $PATH'
+sh -c 'echo $PATH' | xclip -selection clipboard
+cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
+power-governor
+doas /etc/rc.d/power-governor
+doas /etc/rc.d/power-governor start
+doas /etc/rc.d/power-governor stop
+mv /etc/rc.d/power-governor /usr/local/bin
+doas mv /etc/rc.d/power-governor /usr/local/bin
+doas /etc/rc.conf
+doas vim /etc/rc.conf
+cd .suckless/dwm/
+vim config.h
+(cat ~/.local/bin/dmenu_run<\n>ls -la ~/.local/bin/dmenu_run) | xclip -selection clipboard
+cat ~/.local/bin/dmenu_run<\n>ls -la ~/.local/bin/dmenu_run | xclip -selection clipboard
+cat ~/.local/bin/dmenu_run<\n>ls -la ~/.local/bin/dmenu_run
+cd ~
+rm .local/bin/dmenu_run
+doas vim /usr/local/bin/dmenu_run
+doas rm /usr/local/bin/UKI-builder.sh
+vim /sbin/update-efistub.sh
+doas vim /sbin/update-efistub.sh
+doas chmod +x /sbin/update-efistub.sh
+doas mv /sbin/update-efistub.sh /sbin/setup-efistub.sh
+doas sh
+cd /boot/
+tree -H | xclip -selection clipboard
+rm -f /boot/efi/EFI/CRUX/vmlinuz-6.12.23<\n>rm -f /boot/efi/EFI/CRUX/initramfs-6.12.23.img
+dosa sh
+doas sh
+doas mv /sbin/setup-efistub.sh /sbin/setup-efistub
+open /sbin/setup-efistub | xclip -selection clipboard
+ls -la
+cd ~
+sync<\n>echo done
+greetd
+cd /tmp/
+git clone --depth=1 https://git.sr.ht/~kennylevinsen/greetd
+cd greetd/
+ls -la
+cargo build --release
+doas cp target/release/{greetd,agreety} /usr/local/bin
+doas cp target/release/greetd /usr/local/bin
+doas cp target/release/agreety /usr/local/bin
+doa mkdir /etc/greetd
+doaas mkdir /etc/greetd
+doas mkdir /etc/greetd
+cp config.toml /etc/greetd/
+doas cp config.toml /etc/greetd/
+doas useradd -M -G video greeter
+doas chmod -R go+r /etc/greetd/
+doas systemctl enable --now greetd
+doas vim /etc/inittab
+doas vim /etc/rc.d/greetd
+doas chmod +x /etc/rc.d/greetd
+doas vim /etc/rc.conf
+startx
+doas vim /etc/greetd/config.toml
+cd /tmp/
+git clone --depth=1 https://github.com/apognu/tuigreet<\n>cd tuigreet<\n>cargo build --release<\n>install -Dm755 target/release/tuigreet /usr/bin/tuigreet
+doas install -Dm755 target/release/tuigreet /usr/bin/tuigreet
+doas /etc/rc.d/greetd restart
+doas sh -c '/etc/rc.d/greetd restart'
+sh -c 'doas /etc/rc.d/greetd restart'
+doas which dwm
+doas vim /etc/greetd/config.toml
+exit
+doas vim /etc/inittab
+doas /etc/rc.d/greetd restart | xclip -selection clipboard
+pgrep greetd
+/usr/bin/greetd
+doas /usr/bin/greetd
+doas ./usr/bin/greetd
+doas /usr/bin/greetd
+doas /usr/bin/local/greetd
+doas /usr/local/bin/greetd
+doas cp /etc/pam.d/login /etc/pam.d/greetd
+doas /usr/local/bin/greetd
+doas vim /etc/greetd/config.toml
+doas /etc/rc.d/greetd restart
+doas /usr/local/bin/greetd
+doas reboot
+doas vim /etc/inittab
+doas which tuigreet
+doas vim /etc/inittab
+doas open /etc/inittab | xlip -selection clipboard
+doas open /etc/inittab | xclip -selection clipboard
+doas cat /etc/inittab | xclip -selection clipboard
+pgrep greetd
+chmod -R go+r /etc/greetd/
+doas chmod -R go+r /etc/greetd/
+mkdir -p /var/cache/tuigreet<\n>chown greeter:greeter /var/cache/tuigreet
+doas mkdir -p /var/cache/tuigreet<\n>doas chown greeter:greeter /var/cache/tuigreet
+doas vim /etc/greetd/config.toml
+startx
+doassh
+doas sh
+doas vim /etc/greetd/config.toml
+doas rfeboot
+/etc/rc.d/greetd restart<\n>cat /tmp/tuigreet.log
+cat /tmp/tuigreet.log
+pgrep -a greetd
+/usr/bin/greetd
+/usr/local/bin/greetd
+doas /usr/local/bin/greetd
+cat /etc/rc.conf
+doas vim /etc/rc.d/greetd
+doas which greetd
+exit
+/etc/rc.d/greetd start
+doas/etc/rc.d/greetd start
+doas /etc/rc.d/greetd start
+startx
+satx
+sat
+doas vim /etc/greetd/config.toml
+doas reboot
+doas vim /etc/greetd/config.toml
+vim .xi
+vim .xinitrc
+doas usermod -aG video,input rye
+doas usermod -aG video,input greeter
+doas vim
+doas vim /etc/greetd/config.toml
+doas vim /etc/inittab
+ls -la
+doas rm -rf /etc/greetd/
+doas which greetd
+doas rm /usr/local/bin/greetd
+doas rm /usr/bin/tuigreet
+doas rm /var/cache/tuigreet/
+doas rm -rf /var/cache/tuigreet/
+cd .suckless/dwm/
+mkdir scripts
+doas vim scripts/dwmstatus.sh
+startx
+vim .xinitrc
+cd .suckless/dwm/
+doas vim scripts/dwmstatus.sh
+ls -la scripts/
+vim .xinitrc
+doas chmod +x .suckless/dwm/scripts/dwmstatus.sh
+cd .suckless/dwm/
+vim scripts/dwmstatus.sh
+doas vim scripts/dwmstatus.sh
+ls -la scripts/
+rm scripts/dwmstatus.sh
+vim scripts/dwmstatus.sh
+pkill dwmstatus ; job spawn ~/.suckless/dwm/scripts/dwmstatus.sh
+pkill dwmstatus ; job spawn { ~/.suckless/dwm/scripts/dwmstatus.sh }
+pkill dwmstatus
+pkill dwmstatus.sh
+startx
+vim .xinitrc
+cd .suckless/dwm/
+vim scripts/dwmstatus.sh
+scripts/dwmstatus.sh
+chmod +x ~/.suckless/dwm/scripts/dwmstatus.sh
+scripts/dwmstatus.sh
+doas s
+doas sh
+cd .suckless/dwm/
+vim config.h
+vim patches.h
+exit
+xsetroot -name "[status2d] ^c#FF0000^red text with blue rectangle^c#55cdfc^^r3,3,14,14^^f20^^c#FFFFFF^^b#f7a8b8^ and white text on pink background "
+startx
+rm -rf .suckless/dwm/scripts/
+vim .xinitrc
+cd .suckless/dwm/
+mkdir scripts
+vim scripts/dwmstatus.sh
+startx
+chmod +x ~/.suckless/dwm/scripts/dwmstatus.sh
+vim .suckless/dwm/scripts/dwmstatus.sh
+startx
+vim .suckless/dwm/scripts/dwmstatus.sh
+cd .suckless/dwm/
+vim patches.h
+mkdir Photos
+mv kirbo.jpg Photos/
+ls -la
+feh --help
+vim config.h
+feh --bg-fill ~/Photos/kirbo.jpg
+vim .xinitrc
+exit
+exit
+exit
+man feh
+vim config.h
+make clean ; make ; doas make install
+startx
+exit
+cd .suckless/dwm/
+vim config.h
+make clean ; make ; doas make install
+doas prt-get search picom
+cd /tm
+cd /tmp/
+git clone --depth=1 git@github.com:yshui/picom.git
+cd picom/
+meson setup --buildtype=release build<\n>ninja -C build
+ninja -C build install
+cd ..
+git clone --depth=1 git@github.com:enki/libev.git
+cd libev/
+./configure --prefix=/usr --static
+./configure --prefix=/usr
+make clean ; make ; doas make install
+cd ..
+cd picom/
+meson setup --buildtype=release build<\n>ninja -C build
+cd /tmp/
+git clone --depth=1 git@github.com:troydhanson/uthash.git
+cd uthash/
+./configure --prefix=/usr
+ls -la
+# from the uthash checkout directory<\n>doas cp -v uthash.h /usr/include/uthash.h<\n>doas ldconfig 2>/dev/null || true<\n>
+# from the uthash checkout directory<\n>doas cp -v uthash.h /usr/include/uthash.h<\n>doas ldconfig 2>/dev/null or true<\n>
+# from the uthash checkout directory<\n>doas cp -v src/uthash.h /usr/include/uthash.h<\n>doas ldconfig 2>/dev/null or true<\n>
+ls -la
+doas mv build/src/picom /usrl/local/bin/
+doas mv build/src/picom /usr/local/bin/
+job spawn {picom -b}
+ls -la
+cd ~
+mkdir ~/.config/picom
+vim .config/picom/picom.conf
+cp /etc/xdg/picom.conf ~/.config/picom/picom.conf
+doas cp /etc/xdg/picom.conf ~/.config/picom/picom.conf
+picom -b
+picom -b xrener
+picom xrender -b
+picom -b=xrender
+picom --help
+btop
+picom --help
+picom --help | bat
+doas prt-get search bat
+cd ..
+git clone --depth=1 git@github.com:sharkdp/bat.git
+cd bat/
+ls- la
+ls -la
+cargo build --release
+cargo install --path . --locked
+picom --help | bat
+picom --config
+picom --help | bat
+picom --config
+picom --config | bat
+picom --config
+picom --help | bat
+man picom
+vim .config/picom/picom.conf
+picom -b
+pkill picom
+picom -b
+cd ..
+cd st/
+st --version
+st -v
+ls -la
+git checkout --help
+git checkout 0.8.2
+cd ..
+rm -rf st/
+	git clone git://git.suckless.org/st
+cd st/
+git checkout 0.8.2
+ls -la
+mkdir patches
+cp config.def.h config.h
+git apply patches/st-alpha-0.8.2.diff
+open patches/st-alpha-0.8.2.diff | patch -p1
+open patches/st-alpha-0.8.2.diff | patch -p1 -R
+open patches/st-alpha-0.8.2.diff | patch -p1
+make clean ; make ; doas make install
+exit
+vim config.h
+rm config.def.h
+cp config.h config.def.h
+rm config.h
+open patches/st-alpha-0.8.2.diff | patch -p1
+exit
+vim config.def.h
+make clean ; make ; doas make install
+vim config.mk
+make clean ; make ; doas make install
+exit
+exit
+vim .xinitrc
+doas reboot
+exit
+exit
+ls -la
+rm << > EOF
+ls -la
+doas prt-get search node
+doas power-governor start
+btop
+exit
+vim .config/picom/picom.conf
+exit
+clear
+vim .config/picom/picom.conf
+cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
+power-governor start
+doas power-governor start
+cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
+power-governor stop
+btop
+cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
+doas vim /usr/local/bin/power-governor
+doas power-governor start
+doas vim /usr/local/bin/power-governor
+doas power-governor start
+doas mv /usr/local/bin/power-governor /usr/local/bin/performance-mode
+exit
+btop
+doas prt-get depinst nodejs
+doas prt-get depinst nodejsi
+doas prt-get install nodejs
+st -v
+cd .suckless/st/
+git apply patches/st-scrollback-ringbuffer-0.8.5.diff
+vim patches/st-scrollback-ringbuffer-0.8.5.diff
+patch -p1 | patches/st-scrollback-ringbuffer-0.8.5.diff
+cd .suckless/st/
+doas patch -p1 | patches/st-scrollback-ringbuffer-0.8.5.diff
+cd .suckless/st/
+open patches/st-alpha-0.8.2.diff | patch -p1
+open patches/st-alpha-0.8.2.diff | patch -p1 -R
+open patches/st-alpha-0.8.2.diff | patch -p1
+make clean ; make ; doas make install
+exit
+yes
+cd .suckless/st/
+vim config.h
+make clean ; make ; doas make install
+vim config.h
+make clean ; make ; doas make install
+vim config.h
+make clean ; make ; doas make install
+vim config.def.h
+open patches/st-alpha-0.8.2.diff | patch -p1
+open patches/st-alpha-0.8.2.diff | patch -p1 _r
+open patches/st-alpha-0.8.2.diff | patch -p1 -R
+open patches/st-alpha-0.8.2.diff | patch -p1
+open patches/st-alpha-0.8.2.diff | patch -p1 -R
+git apply patches/st-scrollback-ringbuffer-0.8.5.diff
+doas prt-get install nodejs
+vim patches/st-scrollback-ringbuffer-0.8.5.diff
+vim st.c
+btop
+cd .suckless/st/
+vim st.c
+vim patches/st-scrollback-0.8.4.diff
+git apply patches/st-scrollback-0.8.4.diff
+vim patches/st-scrollback-ringbuffer-0.8.5.diff
+vim patches/st-scrollback-0.8.4.diff
+vim st.c
+git apply patches/st-scrollback-0.8.4.diff
+vim st.c
+open patches/st-alpha-0.8.2.diff | patch -p1
+open patches/st-scrollback-ringbuffer-0.8.5.diff | patch -p1 -R
+open patches/st-scrollback-ringbuffer-0.8.5.diff | patch -p1
+open patches/st-scrollback-ringbuffer-0.8.5.diff | patch -p1 -R
+open patches/st-scrollback-0.8.4.diff | patch -p1
+open patches/st-scrollback-0.8.4.diff | patch -p1 -R
+vim patches/st-scrollback-0.8.4.diff
+rm patches/st-scrollback-*
+ls patches/
+git checkout 0.8.5
+git checkout 0.8.5 -f
+rm patches/st-alpha-0.8.2.diff
+git apply patches/st-alpha-20220206-0.8.5.diff
+git apply patches/st-scrollback-ringbuffer-0.8.5.diff
+make clean ; make ; doas make install
+vim config.mk
+make clean ; make ; doas make install
+git apply --reverse patches/st-scrollback-ringbuffer-0.8.5.diff
+make clean ; make ; doas make install
+git apply --reverse patches/st-alpha-20220206-0.8.5.diff
+make clean ; make ; doas make install
+git checkout 0.8.5
+make clean ; make ; doas make install
+cd ..
+rm -rf st/
+	git clone git://git.suckless.org/st
+git checkout 0.8.5
+cd st/
+git checkout 0.8.5
+make clean ; make ; doas make install
+vim config.mk
+make clean ; make ; doas make install
+mkdir patches
+git apply patches/st-scrollback-ringbuffer-0.8.5.diff
+make clean ; make ; doas make install
+git apply patches/st-alpha-20220206-0.8.5.diff
+make clean ; make ; doas make install
+git apply --reverse patches/st-alpha-20220206-0.8.5.diff
+make clean ; make ; doas make install
+git apply --reverse patches/st-scrollback-ringbuffer-0.8.5.diff
+git apply patches/st-alpha-20220206-0.8.5.diff
+make clean ; make ; doas make install
+git apply --reverse patches/st-alpha-20220206-0.8.5.diff
+make clean ; make ; doas make install
+git apply patches/st-alpha-20220206-0.8.5.diff
+make clean ; make ; doas make install
+vim x.c
+man XRenderColor
+make clean ; make ; doas make install
+st -v
+vim config.h
+make clean ; make ; doas make install
+yes
+exit
+grep -n "kscrollup\|kscrolldown\|TLINE\|tscrollup\|tscrolldown" st.c | head -20
+grep -n "kscrollup\|kscrolldown\|TLINE\|tscrollup\|tscrolldown" st.c
+git apply patches/st-scrollback-ringbuffer-0.8.5.diff
+make clean ; make ; doas make install
+yes
+exit
+sh
+cat -v
+exit
+grep -n -A2 "kscrollup\|kscrolldown" config.h
+grep -n -A2 "kscrollup\|kscrolldown" config.h
+open patches/st-scrollback-0.8.4.diff | patch -p1
+open patches/st-scrollback-ringbuffer-0.8.5.diff | patch -p1
+open patches/st-scrollback-ringbuffer-0.8.5.diff | patch -p1 -R
+open patches/st-scrollback-ringbuffer-0.8.5.diff | patch -p1
+make clean ; make ; doas make install
+exit
+yes
+grep -n -A2 "kscrollup\|kscrolldown" config.h
+grep -n -A2 "kscrollup\|kscrolldown" config.def.h
+grep -n "scroll" st.c | head -30<\n>grep -n "scroll" st.h | head -30<\n>grep -n "scroll" x.c | head -30
+ls *.rej config.h.rej config.def.h.rej 2>/dev/null
+vim config.h
+make clean ; make ; doas make install
+grep -n -A6 "typedef struct {" st.h | grep -B2 -A6 "appkey\|Key;"
+grep -n -B2 -A8 "} Key;" st.h
+grep -n -B2 -A8 "} Key;" config.h<\n>grep -n -B2 -A8 "} Shortcut;" config.h
+grep -n -B5 "static Key key\[\] = {" config.h
+vim config.h
+make clean ; make ; doas make install
+exit
+yes
+exit
+doas prt-get depinst nodejs
+cd /tmp/
+git clone --depth=1 git@github.com:nodejs/node.git
+cd node/
+ls -la
+node
+ls -la
+./configure --prefix=/usr
+make clean ; make ; doas make install
+./configure --prefix=/usr --static
+df -h
+df -h --total
+exit
+make clean ; make ; doas make install
+exit
+btop
+doas poweroff
+vim .config/picom/picom.conf
+startx
+vim .config/picom/picom.conf
+exit
+cd /tmp/
+cd ~/Downloads/
+tar xf go1.26.4.linux-amd64.tar.gz
+ls -la
+cd go/
+ls -la
+cd bin/
+ls -la
+doas which gcc
+doas mv * /usr/bin
+ls -la
+cd ..
+rm -rf go/
+rm go1.26.4.linux-amd64.tar.gz
+cd ..
+go test
+config nu
+source ~/.config/nushell/config.nu
+go test
+go
+cd Projects/
+mkdir go
+cd go/
+go help init
+go --help
+go --help init
+go init --help
+go help
+go help init
+go help mod
+mkdir test
+cd test/
+go mod init test
+ls -la
+exit
+vim main.go
+go run main.go
+cd ~/Downloads/
+doas  rm -rf /usr/local/go ; doas tar -C /usr/local -xzf go1.26.4.linux-amd64.tar.gz
+doas rm /usr/bin/go
+doas rm /usr/bin/gofmt
+config nu
+go run main.go
+config nu
+go run main.go
+go version
+config nu
+go version
+source ~/.config/nushell/config.nu
+go version
+cd ~/Projects/go/test/
+go run main.go
+cd ..
+rm -rf go/
+rm -rf test/
+cd ~
+cd .suckless/dwm/
+ls -la
+vim .xinitrc
+rm -rf .suckless/dwm/scripts/
+:wq
+exit
+vim status.sh
+xsetroot -name "dih"
+vim .xinitrc
+startx
+cd .suckless/dwm/
+xsetroot -name "dih"
+xsetroot -name "[status2d] ^c#FF0000^red text with blue rectangle^c#55cdfc^^r3,3,14,14^^f20^^c#FFFFFF^^b#f7a8b8^ and white text on pink background "
+xsetroot -name "[status2d] ^c#FF0000^red text with blue rectangle^c#55cdf0^^r3,3,14,14^^f20^^c#FFFFFF^^b#f7a8b8^ and white text on pink background "
+xsetroot -name "[status2d] ^c#FF0000^red text with blue rectangle^c#550000^^r3,3,14,14^^f20^^c#FFFFFF^^b#f7a8b8^ and white text on pink background "
+vim status.sh
+vim patches.h
+make clean ; make ; doas make install
+cd .suckless/dwm/
+vim patches.h
+make clean ; make ; doas make install
+startx
+cd .suckless/dwm/
+vim config.h
+make clean ; make ; doas make install
+cd .suckless/dwm/
+vim config.h
+make clean ; make ; doas make install
+startx
+cd .suckless/dwm/
+vim config.h
+make clean ; make ; doas make install
+cd .suckless/dwm/
+vim config.h
+make clean ; make ; doas make install
+vim config.h
+make clean ; make ; doas make install
+startx
+exit
+cd .suckless/dwm/
+vim config.h
+make clean ; make ; doas make install
+cd .suckless/dwm/
+vim config.h
+make clean ; make ; doas make install
+startx 
+vim .config/picom/picom.conf
+startx
+vim .config/picom/picom.conf
+cd .suckless/st/
+ls -la
+vim config.h
+open patches/st-alpha-20220206-0.8.5.diff | patch -p1 -R
+make clean ; make ; doas make install
+exit
+cd .suckless/st/
+rm patches/st-alpha-20220206-0.8.5.diff
+exit
+picom -b
+exit
+picom -b
+vim .config/picom/picom.conf
+picom -b
+picom -v
+picom version
+picom --version
+picom -b
+startx
+exit
+btop
+exit
+vim .config/picom/picom.conf
+btop
+picom -b
+yes
+picom -b
+vim .config/picom/picom.conf
+cd .suckless/st/
+vim config.h
+make clean ; make ; doas make install
+exit
+vim config.h
+make clean ; make ; doas make install
+exit
+vim config.h
+make clean ; make ; doas make install
+exit
+vim config.h
+make clean ; make ; doas make install
+exit
+vim .config/picom/picom.conf
+picom -b
+vim .config/picom/picom.conf
+picom -b
+vim .config/picom/picom.conf
+picom -b
+vim config.h
+bat config.h
+vim config.h
+make clean ; make ; doas make install
+exit
+vim config.h
+make clean ; make ; doas make install
+exit
+vim config.h
+make clean ; make ; doas make install
+exit
+exit
+exit
+btop
+exit
+doas prt-get depinst flameshot
+doas prt-get depinst flame-shot
+cd /tmp/
+git clone --depth=1 git@github.com:flameshot-org/flameshot.git
+cd flameshot/
+ls -la
+# Directory where build files will be placed, may be relative<\n>export BUILD_DIR=build<\n><\n># Directory prefix where Flameshot will be installed. If you are just building and don't want to<\n># install, comment this environment variable.<\n># This excludes the bin/flameshot part of the install,<\n># e.g. in /opt/flameshot/bin/flameshot, the CMAKE_INSTALL_PREFIX is /opt/flameshot<\n># This must be an absolute path. Requires CMAKE 3.29.<\n>export CMAKE_INSTALL_PREFIX=/opt/flameshot<\n><\n># Linux<\n>cmake -S . -B "$BUILD_DIR" \<\n>    && cmake --build "$BUILD_DIR"
+export BUILD_DIR=build
+export-env { $env.BUILD_DIR=build }
+export-env { $env.BUILD_DIR="build" }
+cmake -S . -B "build" ;  cmake --build "build"
+ls -la ~/Photos/
+doas prt-get depinst Qt
+doas prt-get depinst qt
+prt-get search qt
+prt-get search qt6
+doas prt-get depinst qt6
+doas prt-get depinst qt6-base
+exit
+exit
+cmake -S . -B "build" ;  cmake --build "build"
+<\n># Or just search the filesystem<\n>find / -name "Qt6Config.cmake" 2>/dev/null
+prt-get info qt6-base<\n>prt-get list qt6-base
+^find / -iname "Qt6Config.cmake" 2>/dev/null
+find / -iname "Qt6Config.cmake" o+e> /dev/null
+^find / -iname "Qt6Config.cmake"
+doas ^find / -iname "Qt6Config.cmake"
+doas find / -iname "Qt6Config.cmake"
+^pkginfo -l qt6-base
+pkginfo -l qt6-base
+doas prt-get depinst qt6-base
+cd /usr/ports/opt/libxkbcommon<\n>doas pkgmk -uf
+exit
+doas power-governor start
+doas power-mode start
+ls -la /usr/local/bin
+doas performance-mode start
+exit
+doas prt-get depinst qt6-base
+cd /tmp/
+cd /usr/ports/opt/qt6-base<\n>   pkgmk -uf
+cd /usr/ports/opt/qt6-base ; doas pkgmk -uf
+cat /usr/ports/opt/qt6-base/Pkgfile
+vim Pkgfile
+doas vim Pkgfile
+cd /usr/ports/opt/qt6-base<\n>doas pkgmk -uf
+doas prt-get depinst qt6-base
+cd /tmp/flameshot/
+cmake -S . -B "build" ;  cmake --build "build"
+doas prt-get depinst qt6-base
+doas prt-get depinst qt6-svg
+cmake -S . -B "build" ;  cmake --build "build"
+prt-get search kguiaddons<\n>prt-get search qt6-tools<\n>prt-get search kdsingleapplication
+prt-get search qt6
+prt-get depinst qt6-tools
+doas prt-get depinst qt6-tools
+cmake -S . -B "build" ;  cmake --build "build"
+doas # You may need to run this with privileges<\n>cmake --install "build"
+doas cmake --install "build"
+btop
+exit
+cd ~/.suckless/dwm/
+vim config.h
+xev
+make clean ; make ; doas make install
+cd ~/.suckless/dwm/
+flameshot 
+flameshot gui
+mkdir -p ~/.config/flameshot
+mkdir ~/.config/flameshot
+vim .config/flameshot/flamshot.ini
+flameshot gui
+mv .config/flameshot/flamshot.ini .config/flameshot/flameshot.ini
+flameshot gui
+vim config.h
+make clean ; make ; doas make install
+startx
+doas prt-get depinst eza
+cd /tmp
+git clone --depth=1 git@github.com:eza-community/eza.git
+cd eza/
+ls -la
+rustup target add x86_64-unknown-linux-musl<\n>
+cargo build --release --target x86_64-unknown-linux-musl<\n>
+doas prt-get depinst musl
+doas prt-get search musl
+rustup target remove x86_64-unknown-linux-musl<\n>
+doas prt-get search ranger
+cargo build --release<\n>
+doas prt-get search zoxide
+ls -la
+cd..
+cd ..
+cargo install zoxide --locked
+cargo install eza --locked
+doas prt-get search cbonsai
+rm -rf eza/
+ls -la
+cd /tmp
+git clone --depth=1 git@github.com:jakobrees/cbonsai.git
+cd cbonsai/
+ls -la
+eza
+./configure --prefix=/usr --static
+make clean ; make ; doas make install
+vim Makefile
+make help
+make clean ; make ; doas make install
+make clean ; make all ; doas make install
+make clean ; CC=cc make all ; doas make install
+cbonsai 
+clear
+cbonsai 
+exit
+cbonsai -l
+cat .suckless/st/config.h | xclip -selection clipboard
+TERM=st cbonsai
+vim .suckless/st/config.h
+clang-format .suckless/st/config.h
+vim .suckless/st/config.h
+clang-format .suckless/st/config.h
+clang-format -i .suckless/st/config.h
+vim .suckless/st/config.h
+cd .suckless/st/
+make clean ; make ; doas make install
+vim config.h
+make clean ; make ; doas make install
+cbonsai -l
+vim .suckless/st/config.h
+cd .suckless/st/
+make clean ; make ; doas make install
+cd .suckless/st/
+vim config.h
+make clean ; make ; doas make install
+cd .suckless/st/
+vim config.h
+make clean ; make ; doas make install
+vim config.h
+make clean ; make ; doas make install
+echo $TERM<\n>tput colors
+echo $env.TERM<\n>tput colors
+cbonsai -l -k 2,8,10,8     # dark leaves=2(green), wood=8(gray50) for both
+cbonsai -l --season=winter
+TERM=st cbonsai
+TERM=st cbonsai -l --season=winter
+source ~/.config/nushell/config.nu
+cbonsai -l
+TERM=st cbonsai -l --season=winter
+source ~/.config/nushell/config.nu
+TERM=st cbonsai -l --season=winter
+TERM=st cbonsai
+source ~/.config/nushell/config.nu
+TERM=st cbonsai
+config nu
+cbonsai -l
+config nu
+source ~/.config/nushell/config.nu
+config nu
+source ~/.config/nushell/config.nu
+cbonsai -l
+config nu
+source ~/.config/nushell/config.nu
+cbonsai -l
+source ~/.config/nushell/config.nu
+cbonsai -l
+config nu
+source ~/.config/nushell/config.nu
+config nu
+cbonsai -l
+doas prt-get search xlibre
+cd /usr/ports/custom/
+mkdir xlibre
+doas mkdir xlibre
+cd xlibre/
+doas vim Pkgfile
+curl -IL https://github.com/X11Libre/xserver/archive/refs/tags/xlibre-xserver-$version/xserver-$version.tar.gz
+doas vim 
+doas vim Pkgfile
+env-export version=25.1.6<\n>curl -IL https://github.com/X11Libre/xserver/archive/refs/tags/xlibre-xserver-$version/xserver-$version.tar.gz
+export version=25.1.6<\n>curl -IL https://github.com/X11Libre/xserver/archive/refs/tags/xlibre-xserver-$version/xserver-$version.tar.gz
+export-env version=25.1.6<\n>curl -IL https://github.com/X11Libre/xserver/archive/refs/tags/xlibre-xserver-$version/xserver-$version.tar.gz
+export-env { version=25.1.6 }<\n>curl -IL https://github.com/X11Libre/xserver/archive/refs/tags/xlibre-xserver-$version/xserver-$version.tar.gz
+curl -IL https://github.com/X11Libre/xserver/archive/refs/tags/xlibre-xserver-25.1.6/xserver-25.1.6.tar.gz
+pkgmk -d -i
+exit
+doas pkgmk -d -i
+cargo install bottom --locked
+btm
+doas pkgadd -u `xlibre#25.1.6-1.pkg.tar.gz`
+/opt/xlibre/bin/X -version
+doas vim Pkgfile
+# 1. Remove your current side-by-side XLibre package if you already pkgadd'd it<\n>pkgrm xlibre<\n><\n># 2. Remove xorg-server (and note what's currently pulling it in, if prt-get complains)<\n>pkgrm xorg-server<\n><\n># 3. Rebuild the port with the updated /usr prefix<\n>cd /usr/ports/custom/xlibre<\n>pkgmk -d -i
+# 1. Remove your current side-by-side XLibre package if you already pkgadd'd it<\n>doas pkgrm xlibre<\n><\n># 2. Remove xorg-server (and note what's currently pulling it in, if prt-get complains)<\n>doas pkgrm xorg-server<\n><\n># 3. Rebuild the port with the updated /usr prefix<\n>cd /usr/ports/custom/xlibre<\n>doas pkgmk -d -i
+rm -rf /etc/X11/xorg.conf.d/*
+doas rm -rf /etc/X11/xorg.conf.d/*
+1027
+# 1. Remove your current side-by-side XLibre package if you already pkgadd'd it<\n>doas pkgrm xlibre<\n><\n># 2. Remove xorg-server (and note what's currently pulling it in, if prt-get complains)<\n>doas pkgrm xorg-server<\n><\n># 3. Rebuild the port with the updated /usr prefix<\n>cd /usr/ports/custom/xlibre<\n>doas pkgmk -d -i
+# 1. Remove your current side-by-side XLibre package if you already pkgadd'd it<\n><\n># 2. Remove xorg-server (and note what's currently pulling it in, if prt-get complains)<\n>doas pkgrm xorg-server<\n><\n># 3. Rebuild the port with the updated /usr prefix<\n>cd /usr/ports/custom/xlibre<\n>doas pkgmk -d -i
+btm --help
+cd /usr/ports/custom/xlibre<\n>doas pkgmk -d -i
+pkgmk -uf
+doas pkgmk -uf
+cd /usr/ports/custom/xlibre<\n>doas pkgmk -d -i
+Xorg -version
+startx
+vim /var/log/Xorg.0.log
+Xorg -version
+Xorg -retro
+doas vim /etc/X11/xorg.conf.d/intel-20.conf
+Xorg -retro
+doas mv /etc/X11/xorg.conf.d/intel-20.conf /etc/X11/xorg.conf.d/20-intel.conf
+doas rm -f /var/log/Xorg.0.log
+LIBGL_ALWAYS_SOFTWARE=1 Xorg -retro
+doas LIBGL_ALWAYS_SOFTWARE=1 Xorg -retro
+cd /usr/ports/custom/xlibre
+doas pkgremove xlibre
+doas pkgrm xlibre
+rm -rf /etc/X11/xorg.conf.d/*
+doas rm -rf /etc/X11/xorg.conf.d/*
+doas pkgrm xlibre
+doas prt-get depinst xorg
+doas prt-get depinst Xorg
+startx
+doas prt-get remove xorg
+doas prt-get depinst Xorg
+doas prt-get depinst xorg
+cat /var/log/Xorg.0.log
+doas vim /etc/X11/xorg.conf.d/intel-20.conf
+startx
+zoxide dwm
+zoxide --help
+cd .suckless/dwm/
+zoxide add
+zoxide add .
+cd ~
+zoxide dwm
+zoxide init
+zoxide init nu
+zoxide init nushell
+config nu
+source ~/.config/nushell/config.nu
+z dwm
+cd ~
+zi dmw
+doas prt-get depinst fzf
+cd /tmp
+git clone --depth=1 git@github.com:junegunn/fzf.git
+cd fzf/
+ls -la
+eza
+config nu
+source ~/.config/nushell/config.nu
+ls
+config nu
+source ~/.config/nushell/config.nu
+ls
+ls -la
+./configure --prefix=/usr --static
+make clean ; make ; doas make install
+make
+ls -la
+./install-sh
+./install
+fzf
+ls -la ~
+rm ~/.fzf.bash
+doas which fzf
+make clean ; make ; doas make install
+make clean ; FZF_VERSION=0.24.0 FZF_REVISION=tarball make ; doas make install
+make clean ; FZF_VERSION=0.24.0 make ; doas make install
+ls -la
+cd ..
+rm -rf fzf/
+git clone  git@github.com:junegunn/fzf.git
+cd fzf/
+make clean ; make ; doas make install
+ls -la
+doas install
+doas ./install
+fzf
+rm ~/.fzf.bash
+fzf
+make
+doas make install
+$env.FZF_VERSION=0.73.1
+cd ..
+rm -rf fzf/
+z Downloads
+z Down
+zi DOwn
+z Downloads
+cd ~/Downloads/
+ls -la
+rm go1.26.4.linux-amd64.tar.gz
+ls -la
+tar xf fzf-0.73.1-linux_amd64.tar.gz
+ls -la
+cd fzf
+cd fzf/
+ls -la
+doas mv fzf /usr/local/bin
+fzf
+zi Down
+cd ..
+z Downloads
+vim .suckless/dwm/status.sh
+vim .xinitrc
+cd .suckless/dwm/
+vim status.sh
+startx
+./.suckless/dwm/status.sh
+chmod +x ~/.suckless/dwm/status.sh
+./.suckless/dwm/status.sh
+cd .suckless/dwm/
+vim status.sh
+./.suckless/dwm/status.sh
+chmod +x ~/.suckless/dwm/status.sh
+./.suckless/dwm/status.sh
+cd .suckless/dwm/
+cat /sys/class/power_supply/BAT0/status
+vim status.sh
+startx
+cd .suckless/dwm/
+./.suckless/dwm/status.sh
+vim status.sh
+./.suckless/dwm/status.sh
+cd .suckless/dwm/
+vim status.sh
+./.suckless/dwm/status.sh
+./status.sh
+vim status.sh
+startx
+cd /tmp/
+git clone --depth=1 git@github.com:ColinIanKing/stress-ng.git
+cd stress-ng/
+ls -la
+./configure --prefix=/usr --static
+make clean ; make ; doas make install
+doas stress-ng 
+stress-ng 
+stress-ng  --help
+stress-ng --all
+stress-ng --cpu 8 --iomix 4 --vm 2 --vm-bytes 128M --fork 4 --timeout 10s
+stress-ng --cpu 14 --iomix 4 --vm 2 --vm-bytes 128M --fork 4 --timeout 10s
+btm
+cbonsai -l --season=winter
+cbonsai --help
+cbonsai -l -L 100 --season=winter
+cbonsai -l -L 120 --season=winter
+btm
+btm --help
+btm --battery
+btm --tree
+cbonsai -l -L 120 --season=winter
+cd Projects/c/
+ls- la
+ls -la
+git clone git@github.com:ragg967/image-viewer.git
+cd image-viewer/
+ls -la
+cd ..
+rm -rf image-viewer/
+cd ..
+mkdir zig
+cd zig/
+git clone git@github.com:ragg967/image-viewer.git
+cd image-viewer/
+zig
+z Down
+ls -la
+rm fzf-0.73.1-linux_amd64.tar.gz
+tar xf zig-x86_64-linux-0.16.0.tar.xz
+ls -la
+cd zig-x86_64-linux-0.16.0/
+ls -la
+doas mv zig /usr/local/bin
+zig version
+ls -la lib/
+cd ..
+rm -rf zig-x86_64-linux-0.16.0/
+rm zig-x86_64-linux-0.16.0.tar.xz
+zig build
+z image
+zig build
+ls -la /usr/local/bin
+/usr/local/bin/zig
+/usr/local/bin/zig version
+config nu
+/usr/local/bin/zig build
+ls -la
+zig
+z Downloads/
+ls -la
+doas rm /usr/local/bin/zig
+tar xf zig-x86_64-linux-0.16.0.tar.xz
+doas mv zig-x86_64-linux-0.16.0/ /usr/local/bin/zig
+zig
+doas mv /usr/local/bin/zig/ /usr/local/zig
+doas which zig
+config nu
+source ~/.config/nushell/config.nu
+zig
+zig build
+ls -la
+zig-out/bin/iv
+zig-out/bin/iv vim.png 2
+zig-out/bin/iv vim.png
+zig-out/bin/iv vim.png 2
+zig-out/bin/iv vim.png 3
+vim src/main.zig
+zig build
+vim src/main.zig
+zig build
+btm
+vim src/main.zig
+zig build
+vim src/main.zig
+zig build
+vim src/main.zig
+zig build
+vim src/main.zig
+zig build
+zig-out/bin/iv vim.png 2
+doas mv zig-out/bin/iv /usr/local/bin
+git stage .
+git comit
+git commit
+git push
+cd ~
+iv Photos/Whats-your-CRUX.png
+startx
+cd .suckless/dwm/
+vim status.sh
+doas timedatectl set-timezone Pacific
+doas vim /usr/share/zoneinfo/US/Pacific
+vim status.sh
+date
+date now
+date to-timezone Pacific
+date to-timezone | Pacific
+date to-timezone US_pacific
+date to-timezone --help
+date to-timezone US/Pacific
+date now | date to-timezone US/Pacific
+vim status.sh
+cd .suckless/dwm/
+./status.sh
+date now | date to-timezone US/Pacific
+date
+date now | date to-timezone US/Pacific
+./status.sh
+z dwm
+./status.sh
+date
+date timezone
+timezone
+date timezone
+date --timezone
+date -timezone
+doas prt-get depinst timedatectl
+doas ln -sf /usr/share/zoneinfo/America/Los_Angeles /etc/localtime
+date now
+startx
+startx
+doas rm /usr/local/bin/performance-mode
+ls -la /usr/local/bin/
+cd /tmp/
+doas prt-get depinst emacs
+git clone --depth 1 --no-single-branch https://git.savannah.gnu.org/git/emacs.git
+git clone --depth 1 --no-single-branch https://cgit.git.savannah.gnu.org/cgit/emacs.git
+prt-get search emac
+prt-get search emacs
+prt-get search Emacs
+git clone --depth 1 --no-single-branch git://git.git.savannah.gnu.org/emacs.git
+cd emacs/
+ls -la
+./autogen.sh
+./configure --prefix=/usr --static
+./configure --prefix=/usr
+doas prt-get depinst makeinfo
+doas prt-get depinst textinfo
+doas prt-get depinst texinfo
+./configure --prefix=/usr
+doas prt-get depinst gnutls
+doas prt-get depinst libgccjit
+doas prt-get search libgccjit
+cd ..
+date now
+doas ln -sf /usr/share/zoneinfo/America/Los_Angeles /etc/localtime
+date now
+ls -la /etc/localtime
+git clone --depth 1 --no-single-branch git@github.com:gcc-mirror/gcc.git
+cd gcc/
+ls -la
+./autogen.sh
+./configure --prefix=/usr
+make clean ; make ; doas make install
+doas prt-get search gcc-jit
+mkdir /tmp/gcc-build && cd /tmp/gcc-build<\n>/path/to/gcc-source/configure --prefix=/usr --enable-host-shared --enable-languages=c,c++,jit --disable-multilib --disable-bootstrap<\n>make -j$(nproc)<\n>make install
+mkdir /tmp/gcc-build ; cd /tmp/gcc-build<\n>/path/to/gcc-source/configure --prefix=/usr --enable-host-shared --enable-languages=c,c++,jit --disable-multilib --disable-bootstrap<\n>make -j$(nproc)<\n>doas make install
+mkdir /tmp/gcc/gcc-build ; cd /tmp/gcc/gcc-build<\n>/tmp/gcc/configure --prefix=/usr --enable-host-shared --enable-languages=c,c++,jit --disable-multilib --disable-bootstrap<\n>make -j$(nproc)<\n>doas make install
+/tmp/gcc/configure --prefix=/usr --enable-host-shared --enable-languages=c,c++,jit --disable-multilib --disable-bootstrap<\n>make -j$(nproc)<\n>doas make install
+cd ..
+ls -la
+/tmp/gcc/configure --prefix=/usr --enable-host-shared --enable-languages=c,c++,jit --disable-multilib --disable-bootstrap
+make clean ; make ; doas make install
+doas make distclean ; make ; doas make install
+doas make clea ndistclean ; make ; doas make install
+doas make clean distclean ; make ; doas make install
+doas make distclean ; make ; doas make install
+rm ./config.cache
+make clean ; make ; doas make install
+make ; doas make install
+ls- la
+ls -la
+./configure --prefix=/usr --enable-host-shared --enable-languages=c,c++,jit --disable-multilib --disable-bootstrap
+make clean ; make ; doas make install
+(./configure \<\n>  --prefix=/opt/gcc-jit<\n>  --enable-host-shared<\n>  --enable-languages=c,c++,jit<\n>  --disable-multilib<\n>  --disable-bootstrap<\n>  --disable-nls<\n>  --disable-libssp<\n>  --disable-libquadmath<\n>  --disable-libsanitizer<\n>  --disable-libvtv<\n>  --disable-libgomp )
+z gcc
+z ports/gcc
+zi gcc
+cd /
+zi gcc
+cd usr/ports/core/gcc/
+ls -la
+doas vim Pkgfile
+doas prt-get install -fr gcc   # force reinstall/rebuild via the port
+pkgmk -uf    # update footprint - rebuilds and overwrites .footprint with the new actual file list
+doas pkgmk -uf    # update footprint - rebuilds and overwrites .footprint with the new actual file list
+ls -la
+rm gcc-4.7.3-multilib-dirs.patch
+doas prt-get remove gcc   # force reinstall/rebuild via the port
+doas prt-get depinst gcc   # force reinstall/rebuild via the port
+find / -name "libstdc++.so*" 2>/dev/null
+^find / -name "libstdc++.so*" 2>/dev/null
+doas ^find / -name "libstdc++.so*"
+doas find / -name "libstdc++.so*"
+ls -la
+version
+doas find / -iname "libgcc_s.so*"
+core-ls 
+doas /bin/ls -la
+doas /usr/bin/ldd /bin/ls
+doas /usr/bin/ldd /usr/bin/doas
+doas /usr/bin/ldd /usr/bin/pkgadd
+doas pkgmk
+doas pkgmk -d
+doas pkgmk -uf
+ls -la
+core-ls -la
+doas pkgmk -u
+pkgmk --help | grep -i sign
+doas pkgmk -us
+doas pkgmk -is
+doas /usr/bin/find / -name "gcc*" -type f 2>&1 | lines | where $it =~ "bin"
+doas find / -iname "cc1" -o -iname "gcc" -type f
+ls -la
+core-ls -la
+open /etc/pkgmk.conf | lines | where $it =~ "PACKAGE_DIR"
+core-ls -la /usr/ports/packages
+ports -p | lines | where $it =~ "tcc"
+st
+cd ~/Downloads/
+config nu
+doas which cd
+cd /tmp/
+doas core-ls -la /
+doas core-ls  -la /
+doas ls -la /
+doas mkdir media
+ls -la
+core-ls -la
+cd /
+core-ls -la
+cd /tmp/
+lsblk
+mount /dev/sda1 /tmp/usb
+doas mount /dev/sda1 /tmp/usb
+doas rm -rf media/
+ls -la
+core-ls -la
+lsblk
+doas mount /dev/sda1 /tmp/usb
+ls -la
+mkdir usb
+doas mount /dev/sda1 /tmp/usb
+cd usb/
+ls -la
+core-ls -la
+cd gcc-rescue/
+core-ls -la
+$env.PATH = ($env.PATH | prepend /tmp/usb/gcc-rescue/)
+$env.LD_LIBRARY_PATH = "/tmp/usb/gcc-rescure"
+$env.LD_LIBRARY_PATH = "/tmp/usb/gcc-rescue"
+gcc --version
+z gcc
+cd ..
+cd /usr/ports/core/gcc/
+doas pkgmk -is
+doas su
+doas sh
+which gcc
+pkgmk -is
+doas pkgmk -is
+doas CC=/tmp/usb/gcc-rescue/gcc pkgmk -is
+doas pkgmk -is
+su
+core-ls -la
+tar xf gcc-14.4.0.tar.xz
+doas tar xf gcc-14.4.0.tar.xz
+cd gcc-14.4.0/
+core-ls -la
+core-ls
+cd ..
+pkgadd gcc-14.4.0.tar.xz
+doas pkgadd gcc-14.4.0.tar.xz
+pkgmk gcc-14.4.0.tar.xz
+doas pkgmk
+ls -la
+core-ls
+doas rm -rf gcc-14.4.0/
+doas pkgmk -uf
+doas pkgmk -us
+doas pkgmk --help
+doas pkgmk --rs
+doas pkgmk -rs
+cd ..
+core-ls
+core-ls -la
+cd gcc/
+core-ls -la
+rm .footprint .md5sum .signature
+doas rm .footprint .md5sum .signature
+doas pkgmk -d
+echo $env.PATH
+clang
+clang --version
+doas vim Pkgfile
+doas rm .footprint .md5sum .signature
+doas pkgmk -d
+doas vim Pkgfile
+$env.CC = /tmp/usb/gcc-rescue
+$env.CC=/tmp/usb/gcc-rescue
+doas CC=/tmp/usb/gcc-rescue
+startx
+cd /tmp/
+ls -la
+git clone --depth 1 --no-single-branch git://git.git.savannah.gnu.org/emacs.git
+cd emacs/\
+cd emacs/
+(./configure --prefix=/usr<\n>  --with-native-compilation<\n>  --with-json<\n>  --with-tree-sitter<\n>  --with-x-toolkit=lucid<\n>  --with-mailutils)
+./autogen.sh
+(./configure --prefix=/usr<\n>  --with-native-compilation<\n>  --with-json<\n>  --with-tree-sitter<\n>  --with-x-toolkit=lucid<\n>  --with-mailutils)
+make clean ; make ; doas make install
+doas prt-get depinst gnutls
+pkgmk -f 2>&1 | tail -50
+pkgmk -f out+err | tail -50
+pkgmk -f out+err> | tail -50
+pkgmk -f `out+err>` | tail -50
+pkgmk -f 2>&1 | tail -50
+pkgmk -f out+err | tail -50
+doas pkgmk -f 2>&1 | tail -50
+prt-get install -fr gnutls 2>&1 | tail -50
+prt-get install -fr gnutls out+err>| tail -n 50
+doas prt-get install -fr gnutls out+err>| tail -n 50
+doas prt-get install -fr gnutls
+cd /usr/ports/opt/gnutls/
+pkgmk -uf
+doas pkgmk -uf
+doas prt-get depinst gnutls
+cd /tmp/emacs/
+make clean ; make ; doas make install
+emacs 
+z emacs
+cd ~
+emacs emacs
+cd .config/
+mkdir emacs
+cd emacs/
+z st
+cd .suckless/st/
+vim config.h
+emacs init.el
+cd .config/emacs/
+ls -la
+rm early-init.el
+rm init.elc
+emacs --no-splash
+emacs --eval "(message user-emacs-directory)"
+ls -la ~/.emacs.d/
+rm -rf ~/.emacs.d
+emacs --eval "(message user-init-file)"
+clangd
+doas prt-get depinst llvm
+doas prt-get depinst -f llvm
+doas prt-get depinst -rf llvm
+doas prt-get depinst -f llvm
+prt-get --help
+prt-get help
+doas prt-get depinst -fr llvm
+prt-get search clangd
+prt-get search clang
+prt-get search llvm
+doas prt-get depinst -fr llvm
+doas prt-get update llvm
+clangd
+doas go install golang.org/x/tools/gopls@latest
+cd ?
+cd /
+cd /tmp/
+ls -la
+git clone --depth=1 https://github.com/DanielGavin/ols
+cd ols/
+ls -la
+./build.sh
+cd ..
+git clone --depth=1 https://github.com/odin-lang/Odin
+ls -la
+cd Odin/
+ls -la
+./configure --prefix=/usr
+make clean ; make release-native ; doas make install
+cat /sys/class/power_supply/BAT0/status
+cat /sys/class/power_supply/BAT0/energy_full_design
+cat /sys/class/power_supply/BAT0/capacity
+make release-native ; doas make install
+ls -la
+cd ..
+doas mv Odin/ /usr/local/
+config nu
+source ~/.config/nushell/config.nu
+config nu
+cd ols/
+doas ./build.sh
+git config --global --add safe.directory /tmp/ols<\n>
+doas ./build.sh
+./build.sh
+ls -la
+doas mv ols /usr/local/Odin/
+emacs --version
+exit
+emacs 
+emacs --debug-init
+prt-get search libglvnd
+doas prt-get depinst libglvnd
+doas prt-get depinst mesa
+prt-get list | grep -i mesa
+mesa --version
+cat /usr/ports/opt/mesa/Pkgfile | grep version
+cat /usr/ports/core/mesa/Pkgfile | grep version
+cat /usr/ports/xorg/mesa/Pkgfile | grep version
+glxinfo | grep -i "direct rendering\|OpenGL renderer"
+ls -la /dev/dri/<\n>groups
+cat /var/log/Xorg.0.log | grep -i "glx\|dri\|intel\|modeset\|EE"
+ls -la /dev/dri/card0
+ls /dev/dri/card0
+core-ls -la /dev/dri/card0
+grep -i "driver for screen\|Loading.*driver\|LoadModule" /var/log/Xorg.0.log
+prt-get list | grep -i "libdrm\|xorg-server"
+xdpyinfo | grep -i dri
+ls -la ~/.local/share/xorg/<\n>ls -la /var/log/Xorg*
+grep -i "driver for screen\|Loading.*driver\|LoadModule\|EE\|intel\|modeset\|glx" ~/.local/share/xorg/Xorg.0.log
+cat ~/.local/share/xorg/Xorg.0.log
+cat ~/.local/share/xorg/Xorg.0.log | xclip -selection clipboard
+cat /var/log/Xorg.0.log
+cat /var/log/Xorg.0.log | xclip -selection clipboard
+ls /usr/lib/dri/
+cat /usr/ports/xorg/mesa/Pkgfile
+prt-get list | grep -i libclc
+grep -i iris /usr/ports/xorg/mesa/work/build/meson-logs/meson-log.txt
+cd /usr/ports/xorg/mesa<\n>doas pkgmk -f out+err> /tmp/mesa-build.log
+grep -i "iris" /tmp/mesa-build.log
+grep -B2 -A2 "gallium-drivers\|Gallium drivers" /tmp/mesa-build.log
+cat /tmp/mesa-build.log
+doas pkgmk -uf
+cd /usr/ports/xorg/mesa<\n>doas pkgmk -f out+err> /tmp/mesa-build.log
+cat /tmp/mesa-build.log
+doas pkgmk -is
+doas pkgmk --help
+doas pkgmk -rs
+cd /usr/ports/xorg/mesa<\n>pkgmk -fis out+err> /tmp/mesa-build.log
+grep -i "iris" /tmp/mesa-build.log
+cat /tmp/mesa-build.log
+cd /usr/ports/xorg/mesa<\n>pkgmk -is out+err> /tmp/mesa-build.log
+cat /tmp/mesa-build.log
+cd /usr/ports/xorg/mesa<\n>doas pkgmk -is out+err> /tmp/mesa-build.log
+cat /tmp/mesa-build.log
+doas pkgmk -fi out+err> /tmp/mesa-build.log
+cat /tmp/mesa-build.log
+cd .suckless/dwm/
+emacs status.sh
+doas pkgmk -f -is out+err> /tmp/mesa-build.log
+grep -A 2 -i "Gallium drivers" /tmp/mesa-build.log
+cat /tmp/mesa-build.log
+grep -A 2 -i "Gallium drivers" /tmp/mesa-build.log
+/usr/ports/xorg/mesa> grep -A 2 -i "Gallium drivers" /tmp/mesa-build.log<\n>/usr/ports/xorg/mesa>
+wc -l /tmp/mesa-build.log
+grep -i "gallium" /tmp/mesa-build.log
+grep -i "gallium" /tmp/mesa-build.log | xclip -selection clipboard
+grep -i "iris" /tmp/mesa-build.log | xclip -selection clipboard
+prt-get isinst libclc<\n>echo $env.LAST_EXIT_CODE
+prt-get list | grep -i libclc
+doas prt-get depinst libclc
+doas emacs Pkgfile
+doas pkgmk -f -is out+err> /tmp/mesa-build3.log
+grep -A 2 -i "gallium-drivers:" /tmp/mesa-build3.log
+grep -n "PKGMK_MESA_GALLIUM" /usr/ports/xorg/mesa/Pkgfile
+doas emacs Pkgfile
+doas pkgmk -f -is out+err> /tmp/mesa-build3.log
+grep -A 2 -i "gallium-drivers:" /tmp/mesa-build3.log
+cat /tmp/mesa-build3.log
+doas emacs Pkgfile
+doas pkgmk -f -is out+err> /tmp/mesa-build3.log
+cat /tmp/mesa-build3.log
+doas emacs Pkgfile
+doas pkgmk -f -is out+err> /tmp/mesa-build3.log
+doas emacs Pkgfile
+cat /tmp/mesa-build3.log
+doas emacs Pkgfile
+doas prt-get depinst libclc
+pkginfo | grep -E 'llvm|spirv|clang'
+ping 8.8.8.8
+doas reboot
+ping 8.8.8.8
+pkginfo | grep -E 'llvm|spirv|clang'
+ports -u
+doas ports -u
+doas prt-get depinst libclc
+doas prt-get list llvm
+doas prt-get list spirv
+prt-get list | grep -i spriv
+prt-get list | grep -i llvm
+doas prt-get depinst spirv-llvm-translator
+doas prt-get update llvm
+doas prt-get depinst spirv-llvm-translator
+doas prt-get update llvm
+cd /usr/ports/opt/llvm/
+ls -la
+doas emacs Pkgfile
+cd ..
+cd spirv-llvm-translator/
+ls -la
+doas emacs Pkgfile
+doas prt-get install spirv-tools
+doas prt-get update spirv-tools
+cd ..
+cd spirv-tools/
+ls -la
+doas vim Pkgfile
+doas prt-get depinst spirv-tools
+doas prt-get depinst -f spirv-tools
+doas prt-get remove spirv-tools
+doas prt-get depinst spirv-tools
+doas prt-get depinst llvm
+prt-get help
+doas prt-get depinst -fr llvm
+doas prt-get depinst -fr -fi llvm
+doas prt-get install -fr -fi llvm
+doas prt-get update llvm
+dc ..
+cd ..
+ls -la
+cd llvm/
+ls -la
+rm `llvm#22.1.8-1.pkg.tar.gz` llvm-project-22.1.8.src.tar.xz
+doas rm `llvm#22.1.8-1.pkg.tar.gz` llvm-project-22.1.8.src.tar.xz
+exit
+doas prt-get update llvm
+doas prt-get depinst spirv-tools
+doas prt-get depinst spirv-llvm-translator
+btm
+cd ~
+doas prt-get depinst spirv-llvm-translator
+ls /usr/include/spirv/unified1 | grep shader
+pkginfo | grep -i spirv
+pkginfo spirv-llvm-translator | grep -i spirv
+pkginfo -i | grep -i spirv
+(doas ln -s<\n>/usr/include/spirv/unified1/extinst.nonsemantic.shader.debuginfo.100.grammar.json <\n>/usr/include/spirv/unified1/extinst.nonsemantic.shader.debuginfo.grammar.json)
+doas prt-get depinst spirv-tools
+ls /usr/include/spirv/unified1/extinst.nonsemantic.shader.debuginfo*
+prt-get search spirv-headers
+doas prt-get depinst spirv-headers
+doas prt-get remove spirv-headers
+doas prt-get depinst spirv-headers
+doas prt-get -f  depinst spirv-headers
+doas prt-get depinst spirv-tools
+doas prt-get depinst spirv-llvm-translator
+doas prt-get depinst mesa
+cd /usr/ports/xorg/mesa
+ls -al
+doas pkgmk -d
+doas rm .footprint .md5sum .signature
+doas pkgmk -d
+doas prt-get depinst libclc
+doas pkgmk -d
+startx
+doas erboot
+glxinfo | grep -i "direct rendering\|OpenGL renderer"
+glxinfo
+cd Projects/odin/catching-game/
+odin run .
+ls -la /dev/dri/card0
+ls -la /dev/dri/
+ls -la /dev/dri/renderD128
+ls -la /dev/dri/renderD128/
+ls -la /dev/dri/card0
+open /var/log/Xorg.0.log | grep -i glamor
+open /var/log/Xorg.0.log | grep -i iris
+ls /usr/lib/dri/
+cd /usr/ports/xorg/mesa
+cd ..
+cd /usr/ports/xorg/mesa
+vim Pkgfile
+doas prt-get list
+doas prt-get list vulken
+doas prt-get list vulkan
+doas prt-get list | grep -i vul
+doas prt-get depinst vulkan-loader
+doas rm `mesa#26.1.3-1.pkg.tar.gz` `mesa#26.1.4-1.pkg.tar.gz` mesa-26.1.3.tar.xz mesa-26.1.4.tar.xz
+ls -la
+doas prt-get depinst mesa
+doas pkgmk -d
+doas pkgmk -d -uf
+doas pkgmk -d -us
+doas pkgmk -d -uf
+doas prt-get depinst mesa
+doas pkgmk -d -uf
+doas pkgadd -f `mesa#26.1.4-1.pkg.tar.gz`
+doas pkgadd -u `mesa#26.1.4-1.pkg.tar.gz`
+ls /usr/lib/dri/
+startx
+cd P
+cd Projects/odin/catching-game/
+odin run .
+open /var/log/Xorg.0.log | grep -i iris
+open /var/log/Xorg.0.log | grep -i glamor
+open /var/log/Xorg.0.log | grep -i iris
+glxinfo -B
+ls /usr/lib/libGL.so*<\n>ls /usr/lib/libEGL.so*<\n>ls /usr/lib/dri
+grep -i glx /var/log/Xorg.0.log
+file /usr/lib/dri/swrast_dri.so<\n>ls -l /usr/lib/dri/swrast_dri.so
+echo $LIBGL_DRIVERS_PATH
+ls -l /usr/lib/dri/swrast_dri.so
+doas prt-get remove mesa<\n>doas prt-get depinst mesa
+doas ldconfig
+ls /usr/lib/dri/swrast_dri.so<\n>glxinfo -B
+glxinfo -B | grep -E "renderer|vendor"
+cd /usr/ports/xorg/mesa
+vim Pkgfile
+glxinfo -B | grep -E "renderer|vendor"
+doas rm `mesa#26.1.4-1.pkg.tar.gz` mesa-26.1.4.tar.xz
+doas prt-get remove mesa<\n>doas prt-get depinst mesa
+startx
+glxinfo -B | grep -E "renderer|vendor"
+ls /usr/lib/dri/swrast_dri.so<\n>glxinfo -B
+doas which swrast_dri.so
+doas find swrast_dir.so
+doas find / swrast_dir.so
+doas find / -name "swrast_dri.so"
+prt-get info mesa
+prt-get cat mesa | sed -n '1,200p'
+cd /usr/ports/xorg/mesa
+doas vim Pkgfile
+ls -al
+ls -la
+doas rm `mesa#26.1.4-1.pkg.tar.gz`
+doas pkgmk -d -uf
+ls -la
+doas rm .footprint .md5sum .signature
+doas pkgmk -d -uf
+doas pkgmk -d
+doas vim Pkgfile
+doas pkgmk -d
+doas pkgadd -u `mesa#26.1.4-1.pkg.tar.gz`
+ls /dev/dri/
+glxinfo -B | grep -E "renderer|vendor"
+ls /dev/dri
+doas dmesg | grep -iE "i915|xe|drm"
+doas prt-get depinst linux-firmware
+doas prt-get -u depinst linux-firmware
+doas prt-get  depinst -u linux-firmware
+doas prt-get update linux-firmware
+cd /usr/ports/opt/linux-firmware/Pkgfile
+cd /usr/ports/opt/linux-firmware/
+ls -la
+doas vim Pkgfile
+doas rsync -aqz crux.nu::ports/crux-3.8/opt/linux-firmware/ linux-firmware
+ls -la
+cd ..
+doas rm -rf linux-firmware/
+doas rsync -aqz crux.nu::ports/crux-3.8/opt/linux-firmware/ linux-firmware
+cd linux-firmware/
+ls -al
+doas prt-get update linux-firmware
+doas prt-get depinst linux-firmware
+doas prt-get update linux-firmware
+uname
+cd /tmp/
+ls -la
+git clone --depth=1 https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git<\n>cd linux-firmware
+ls -la
+doas mkdir -p /lib/firmware/i915<\n>doas cp -v i915/mtl_* /lib/firmware/i915/
+doas reboot
+ls /usr/lib/firmware/i915
+dmesg | grep -iE "guc|dmc|firmware"
+ls /lib/firmware/i915<\n>ls /usr/lib/firmware/i915
+/usr/lib/firmware
+cat /proc/cmdline
+ls /usr/lib/firmware/i915<\n>ls /lib/firmware/i915
+cat /proc/cmdline
+doas mkdir -p /usr/lib/firmware/i915
+doas cp -v i915/mtl_* /usr/lib/firmware/i915/
+cd /tmp/
+git clone --depth=1 https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git<\n>cd linux-firmware
+doas cp -v i915/mtl_* /usr/lib/firmware/i915/
+doas reboot
+dmesg | grep -iE "guc|dmc|firmware"
+ls -R /usr/lib/firmware | head<\n>ls -R /lib/firmware | head
+cat /sys/module/firmware_class/parameters/path
+zgrep CONFIG_DRM_I915 /proc/config.gz
+doas mkdir -p /lib/firmware/i915<\n>doas cp -v /usr/lib/firmware/i915/* /lib/firmware/i915/
+doas mkinitramfs /boot/initramfs.img
+doas sh
+su
+doas mkinitramfs /boot/initramfs.img
+doas mkdir -p /lib/firmware/i915<\n>doas cp -v /usr/lib/firmware/i915/* /lib/firmware/i915/
+doas rm -rf /usr/lib/firmware/i915
+glxinfo -B
+ls -l /lib/firmware/i915/mtl_guc_70.bin<\n>ls -l /lib/firmware/i915/mtl_dmc.bin
+dmesg | grep -i firmware | head -50
+doas modprobe -r i915<\n>doas modprobe i915
+cd /usr/src
+doas mv ~/Downloads/linux-7.1.2.tar.xz .
+ls -la
+tar xf linux-7.1.2.tar.xz
+doas tar xf linux-7.1.2.tar.xz
+cd linux-7.1.2/
+ls -la
+doas mv ../linux-6.12.23/.config .
+ls -la
+open .config | xclip -selection clipboard
+doas rm .config
+zcat /proc/config.gz > .config
+doas zcat /proc/config.gz > .config
+ls -la
+doas zcat /proc/config.gz > .config
+su
+ls -al
+vim .config
+doas rm .config
+make menuconfig
+doas make menuconfig
+doas vim .config
+doas make olddefconfig
+make
+doas make
+doas make modules_install<\n>doas make install
+doas vim .config
+make olddefconfig
+doas make olddefconfig
+ls arch/x86/boot/bzImage
+doas cp arch/x86/boot/bzImage /boot/vmlinuz-7.1.2<\n>doas cp System.map /boot/System.map-7.1.2<\n>doas cp .config /boot/config-7.1.2
+doas cp /boot/vmlinuz-7.1.2 /boot/efi/EFI/CRUX/vmlinuz
+exit
+ls -la
+doas cargo install eza
+rustup default stable
+doas cargo install eza
+cargo install eza
+doas apt remove zoxide
+cargo install eza --locked
+cargo install zoxide --locked
+cargo install nu --locked
+cargo remove nu
+cargo uninstall nu
+cargo install nu --locked
+doas cp .cargo/bin/nu /usr/local/bin/nu<\n>echo /usr/local/bin/nu | doas tee -a /etc/shells<\n>chsh -s /usr/local/bin/nu
+exit
+sh
+startx
+doas cp .cargo/bin/nu /usr/local/bin/nu<\n>echo /usr/local/bin/nu | doas tee -a /etc/shells<\n>chsh -s /usr/local/bin/nu
+chsh -s /usr/local/bin/bash
+chsh -s /usr/bin/bash
+exit
+doas poweroff
+ls -la .suckless/dwm/
+vim .xinitrc
+cd .suckless/dwm/
+./status.sh
+chmod +x ~/.suckless/dwm/status.sh
+./status.sh
+startx
+cat /sys/power/state
+cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
+cat /sys/devices/system/cpu/cpu0/cpufreq/energy_performance_preference
+cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_available_governors
+cat /sys/class/power_supply/BAT0/capacity
+cat /sys/class/power_supply/BAT0/power_now
+cat /sys/class/power_supply/BAT0/capacity
+cat /sys/class/power_supply/BAT0/status
+cat /sys/class/power_supply/BAT0/charge_control_end_threshold<\n>cat /sys/class/power_supply/BAT0/charge_control_start_threshold
+sudo tlp-stat -b
+doas tlp-stat -b
+ls /sys/class/power_supply/
+cat /sys/class/power_supply/ADP1/online
+cat /sys/class/power_supply/ucsi-source-psy-USBC000:001/online<\n>cat /sys/class/power_supply/ucsi-source-psy-USBC000:001/voltage_now<\n>cat /sys/class/power_supply/ucsi-source-psy-USBC000:001/current_now<\n>cat /sys/class/power_supply/ucsi-source-psy-USBC000:002/online
+dmesg | grep -i -E "ucsi|typec|pd|pdo"
+doas dmesg | grep -i -E "ucsi|typec|pd|pdo"
+ls /sys/class/typec/<\n>cat /sys/class/typec/port0/power_role<\n>cat /sys/class/typec/port0/data_role<\n>cat /sys/class/typec/port0/usb_power_delivery_revision
+uname -r<\n>dmesg | grep -i "ucsi_acpi"
+uname -r<\n>doas dmesg | grep -i "ucsi_acpi"
+doas uname -r<\n>doas dmesg | grep -i "ucsi_acpi"
+find /lib/modules/$(uname --kernel-release)/ -iname "*thinkpad_acpi*" -o -iname "*ideapad*"<\n>doas modprobe thinkpad_acpi
+^find /lib/modules/$(uname --kernel-release)/ -iname "*thinkpad_acpi*" -o -iname "*ideapad*"<\n>doas modprobe thinkpad_acpi
+find /lib/modules/$(uname --kernel-release)/ -iname "*thinkpad_acpi*" -o -iname "*ideapad*"<\n>doas modprobe thinkpad_acpi
+firefox
+doas dmesg | grep -i -E "typec|ucsi|source.*cap|sink.*cap" | tail -30
+doas reboot
+doas poweroff
+doas vim /etc/wpa_supplicant.conf
+doas vim /etc/wpa_supplicant/wpa_supplicant.conf
+doas systemctl restart wpa_supplicant
+ping 8.8.8.8
+doas systemctl restart wpa_supplicant
+wpa_cli -i wlan0 reconfigure
+doas vim /etc/wpa_supplicant/wpa_supplicant.conf
+doas chmod 600 /etc/wpa_supplicant/wpa_supplicant.conf
+ip link show
+doas dhclient wlan0
+doas ip link set wlp0s20f3 up
+ip link show
+ip link show wlp0s20f3
+doas systemctl restart wpa_supplicant
+doas systemctl enable wpa_supplicant@wlp0220f3
+ping 8.8.8.8
+doas systemctl start wpa_supplicant@wlp0220f3
+doas systemctl disable wpa_supplicant@wlp0220f3
+doas ip link set wlp0s20f3 up
+ip link show wlp0s20f3
+doas mv /etc/wpa_supplicant/wpa_supplicant.conf /etc/wpa_supplicant/wpa_supplicant-wlp0s20f3.conf
+doas systemctl enable wpa_supplicant@wlp0s20f3
+doas systemctl start wpa_supplicant@wlp0s20f3
+ping 8.8.8.8
+doas dhclient wlp0s20f3
+doas systemctl status wpa_supplicant@wlp0s20f3
+doas vim /etc/wpa_supplicant/wpa_supplicant-wlp0s20f3.conf
+doas systemctl status wpa_supplicant@wlp0s20f3
+doas systemctl start wpa_supplicant@wlp0s20f3
+doas systemctl status wpa_supplicant@wlp0s20f3
+ping 8.8.8.8
+doas which dhcpcd
+doas dhcpcd wlp0s20f3
+ping 8.8.8.8
+ip addr show wlp0s20f3
+doas dhcpcd -x wlp0s20f3
+doas dhcpcd wlp0s20f3
+journalctl -u wpa_supplicant@wlp0s20f3 --no-pager | grep -iE "CTRL-EVENT|disconnect|fail|wrong|scan|associat"
+doas journalctl -u wpa_supplicant@wlp0s20f3 --no-pager | grep -iE "CTRL-EVENT|disconnect|fail|wrong|scan|associat"
+rfkill list
+doas rfkill list
+cat /sys/class/rfkill/*/state
+cat /sys/class/rfkill/*/name
+doas systemctl disable wpa_supplicant@wlp0220f3
+doas killall wpa_supplicant
+doas pkill wpa_supplicant
+doas mv /etc/wpa_supplicant/wpa_supplicant-wlp0s20f3.conf /etc/wpa_supplicant/wpa_supplicant.conf
+doas vim /etc/network/interfaces
+doas ifupdown
+doas ifdown wlp0s20f3 err+stdout
+doas ifdown wlp0s20f3
+doas vim /etc/network/interfaces
+ls -la
+doas vim /etc/network/interfaces
+source /etc/network/interfaces.d/*
+doas vim /etc/network/interfaces
+doas mv /etc/wpa_supplicant/wpa_supplicant.conf /etc/wpa_supplicant/wpa_supplicant-wlp0s20f3.conf
+doas ifdown wlp0s20f3
+cat /etc/network/interfaces
+doas cat /etc/network/interfaces
+doas ifup wlp0s20f3
+doas vim /etc/network/interfaces
+doas ifup wlp0s20f3
+doas vim /etc/network/interfaces
+doas ifup wlp0s20f3
+doas vim /etc/network/interfaces
+doas ifup wlp0s20f3
+ping 8.8.8.8
+doas ifup wlp0s20f3
+ping 8.8.8.8
+doas ifdown wlp0s20f3
+doas ifup wlp0s20f3
+ping 8.8.8.8
+doas vim /etc/network/interfaces
+doas ifdown wlp0s20f3
+doas vim /etc/network/interfaces
+doas ifdown wlp0s20f3
+doas ifup wlp0s20f3
+doas vim /etc/network/interfaces
+doas ifdown wlp0s20f3
+doas ifup wlp0s20f3
+ls -la /etc/wpa_supplicant/
+doas mv /etc/wpa_supplicant/wpa_supplicant-wlp0s20f3.conf /etc/wpa_supplicant/wpa_supplicant.conf
+doas ifdown wlp0s20f3
+doas ifup wlp0s20f3
+doas vim /etc/network/interfaces
+doas ifup wlp0s20f3
+ls -la /etc/wpa_supplicant/
+doas vim /etc/network/interfaces
+man ifupdown
+man ifup
+doas ifquery
+doas ifquery --help
+doas ifquery wlp0s20f3
+doas vim /etc/network/interfaces
+man ifup
+doas ifup wlp0s20f3
+ping 8.8.8.8
+ip addr show wlp0s20f3
+doas wpa_cli status
+doas wpa_cli list_networks
+ip addr show wlp0s20f3
+ping 8.8.8.8
+rfkill list
+doas rfkill list
+doas wpa_cli select_network 1
+ping 8.8.8.8
+doas wpa_cli reconnect
+doas wpa_cli status
+doas vim /etc/wpa_supplicant/wpa_supplicant.conf
+doas wpa_cli list_networks
+startx
+ping 8.8.8.8
+doas wpa_cli list_networks
+ping 8.8.8.8
+firefox
+doas vim /usr/local/bin/dmenu_path
+doas vim /usr/local/bin/dmenu_run
+cd /tmp/
+git clone --depth=1 https://github.com/jakobrees/cbonsai.git
+cd cbonsai/
+ls -la
+./configure --prefix=/usr
+make clean ; make ; doas make install
+cbonsai 
+cbonsai --sesion=winter
+cbonsai --season=winter
+cbonsai -l --season=winter
+doas apt install emacs
+emacs --version
+doas apt remove emacs
+cd ..
+git clone --depth=1 https://git.savannah.gnu/git/emacs/emacs.git
+git clone --depth=1 --no-single-branch https://git.savannah.gnu/git/emacs/emacs.git
+doas apt install emacs
+emacs --version
+doas apt install go odin ols zig zls
+doas apt install llvm
+doas apt install clang
+doas apt install clang-tools
+clangd
+doas apt install clangd
+doas apt install llvm-config
+cd /tmp/
+git clone --depth=1 https://github.com/odin-lang/Odin
+cd Odin/
+ls- la
+ls -la
+./configure --prefix=/usr
+make clean ; make ; doas make install
+make ; doas make install
+./build_odin.sh
+./build_odin.sh release-native
+cd Downloads/
+ls -la
+cd ..
+doas mv Odin/ /usr/local/
+doas tar xf ~/Downloads/go1.26.4.linux-amd64.tar.gz /usr/local/go
+doas tar xf ~/Downloads/go1.26.4.linux-amd64.tar.gz
+ls -la ~/Downloads/
+cd ~/Downloads/
+doas tar xf ~/Downloads/go1.26.4.linux-amd64.tar.gz
+ls -la
+doas mv go/ /usr/local/
+go
+go install golsp
+doas go install golsp@latest
+go install golang.org/x/tools/gopls@latest
+cd /tmp/
+ls -la
+git clone --depth=1 https://github.com/DanielGavin/ols.git
+cd ols/
+ls -la
+./build.sh
+./odinfmt.sh
+ls -la
+vim build.sh
+ols
+ls -la
+cd builtin/
+ls -la
+cd ..
+ls -la
+doas mv ols /usr/local/Odin/
+doas mv odinfmt /usr/local/Odin/
+cd /tmp/
+doas mv /usr/local/Odin/ols ols/
+doas mv ols /usr/local/Odin/
+cd go/
+ls -la
+cd ..
+ls -la
+git clone --depth=1 https://github.com/DanielGavin/ols.git
+cd ols/
+ls -la
+doas mv builtin/ /usr/local/Odin/
+doas reboot
+ols
+ls- la /usr/local/
+ls -la /usr/local/
+config nu
+emacs
+ls -la /usr/local/Odin/
+cd /usr/local/Odin/
+ls -la
+doas mv ols/ols .
+doas mv ols/ols_ .
+doas mv ols/ols ols_
+ls -la
+doas rm -rf ols/
+doas ols_ ols
+doas mv  ols_ ols
+ls -la
+cat /sys/power/state
+cat /sys/class/power_supply/BAT0/status
+git clone --depth=1 git@github.com:ragg967/Repos.git
+git clone --depth=1 https://github.com/ragg967/Repos.git
+cd Repos/
+ls- la
+ls -la
+cd ~/Projects/odin/catching-game/
+fossil init ~/Repos/catching-game.fossil
+doas apt install fossil
+fossil init ~/Repos/catching-game.fossil
+fossil open -k ~/Repos/catching-game.fossil
+fossil --help
+pkill "Mini-jam 213: Out Of Hand"
+pkill -f "Mini-jam 213: Out Of Hand"
+pkill -f raylib
+pkill -f "Mini-jam 213: Out Of Hand"
+pkill -f odin
+pkill -f status.sh
+job spawn {.suckless/dwm/status.sh}
+job list
+job kill 1
+job kill 2
+job kill 3
+job list
+pkill -f status
+.suckless/dwm/status.sh
+cd .suckless/dwm/
+vim status.sh
+pkill -f status
+job spawn {.suckless/dwm/status.sh}
+job spawn {~/.suckless/dwm/status.sh}
+doas apt install aseprite
+cd /tmp/
+git clone --depth=1 git@github.com:aseprite/aseprite.git
+doas apt install gh
+gh repo clone aseprite/aseprite
+gh auth login
+gh repo clone aseprite/aseprite
+cd aseprite/
+ls -la
+mkdir build
+cd build/
+doas apt install cmake
+doas apt install ninja
+cd ..
+ls -la
+buildhash 
+./build.sh
+doas apt install Ninja
+doas apt install ninja-build
+./build.sh
+git submodule update --init --recursive
+./build.sh
+doas apt install unzip
+doas apt install zip
+./build.sh
+doas apt install xcurser
+xcurser
+doas apt install xcursor
+doas apt install libxcursor-dev
+./build.sh
+doas apt install libxinput-dev
+doas apt install libxi-dev
+./build.sh
+doas apt install libxrandr-dev
+./build.sh
+doas apt install libgl-dev libglx-dev
+./build.sh
+ls -la
+./bin/aseprite
+doas mkdit bin
+mkdir bin
+./build.sh
+./bin/aseprite
+ls -la
+doas mv aseprite/bin/aseprite /usr/local/bin/
+/usr/local/bin/aseprite
+doas mv /usr/local/bin/aseprite /tmp/aseprite/aseprite/bin/
+doas mkdir -p /usr/local/share/aseprite<\n>doas cp -r /tmp/aseprite/build/bin/* /usr/local/share/aseprite/<\n>doas ln -sf /usr/local/share/aseprite/aseprite /usr/local/bin/aseprite
+doas mkdir -p /usr/local/share/aseprite<\n>doas cp -r /tmp/aseprite/bin/* /usr/local/share/aseprite/<\n>doas ln -sf /usr/local/share/aseprite/aseprite /usr/local/bin/aseprite
+doas mkdir -p /usr/local/share/aseprite<\n>doas cp -r /tmp/aseprite/aseprite/bin/ /usr/local/share/aseprite/<\n>doas ln -sf /usr/local/share/aseprite/aseprite /usr/local/bin/aseprite
+aseprite
+doas mkdir -p /usr/local/share/aseprite<\n>doas cp -r /tmp/aseprite/aseprite/bin/ /usr/local/share/aseprite/<\n>doas ln -sf /usr/local/share/aseprite/bin/aseprite /usr/local/bin/aseprite
+aseprite 
+cd Projects/odin/catching-game/
+fossil commit -m "DONE"
+fossil ui
+cd /tmp/
+git clone https://github.com/emscripten-core/emsdk.git
+cd emsdk/
+git pull
+./emsdk install latest
+./emsdk activate latest
+source ./emsdk_env.sh
+cd ..
+cd emsdk/
+ls -la
+doas mv emsdk /usr/local/bin/
+doas mv emsdk_env.sh /usr/local/bin/
+config nu 
+cat /usr/local/bin/emsdk_env.sh
+config nu 
+emcc
+doas apt install Emscripten
+doas apt install emscripten
+emcc
+ping 8.8.8.8
+ip addr show wlp0s20f3
+doas ifup wlp0s20f3
+ip addr show wlp0s20f3
+doas wpa_cli list_networks
+ping 8.8.8.8
+doas wpa_cli list_networks
+doas vim /etc/wpa_supplicant/wpa_supplicant.conf
+ping 8.8.8.8
+doas wpa_cli list_networks
+ping 8.8.8.8
+ip addr show wlp0s20f3
+ping 8.8.8.8
+cd Projects/odin/catching-game/
+gh repo clone karl-zylinski/odin-raylib-web
+cd Projects/odin/catching-game/
+cd odin-raylib-web/
+./build_web.sh
+ls -la
+ls -la build/web/
+./build_web.sh
+echo $env.EMDISK_SDK_CIR
+echo $env.EMDISK_SDK_DIR
+echo $env.EMSCRIPTEN_SDK_DIR
+emcc
+cd Projects/odin/catching-game/
+cd odin-raylib-web/
+./build_web.sh
+./build_desktop.sh
+./build_web.sh
+doas vim /etc/wpa_supplicant/wpa_supplicant.conf
+./build_web.sh
+odin build source/main_web -target:js_wasm32 -build-mode:obj -define:RAYLIB_WASM_LIB=env.o -define:RAYGUI_WASM_LIB=env.o -vet -strict-style -out:$OUT_DIR/game.wasm.o<\n>
+odin build source/main_web -target:js_wasm32 -build-mode:obj -define:RAYLIB_WASM_LIB=env.o -define:RAYGUI_WASM_LIB=env.o -vet -strict-style -out:$OUT_DIR/game.wasm.o
+./build_web.sh
+ping 8.8.8.8
+./build_web.sh
+ping 8.8.8.8
+./build_web.sh | xclip -selection clipboard
+doas apt install xclip
+./build_web.sh | xclip -selection clipboard
+tree -H | xclip -selection clipboard
+doas apt install tree
+tree -H | xclip -selection clipboard
+tree | xclip -selection clipboard
+odin build source/main_web -target:js_wasm32 -build-mode:obj -define:RAYLIB_WASM_LIB=env.o -define:RAYGUI_WASM_LIB=env.o -vet -strict-style -out:build/web/game.wasm.o
+./build_web.sh
+doas vim /etc/wpa_supplicant/wpa_supplicant.conf
+rm -rf build/web
+ls -la
+rm -rf build/web
+rm -rf source/build/
+./build_web.sh
+ping 8.8.8.8
+doas ifup wlp0s20f3
+doas wpa_cli list_networks
+doas wpa_cli --help
+ping 8.8.8.8
+odin build source/main_web -target:js_wasm32 -build-mode:obj -define:RAYLIB_WASM_LIB=env.o -define:RAYGUI_WASM_LIB=env.o -vet -strict-style -out:build/web/game.wasm.o
+cd Projects/odin/catching-game/odin-raylib-web/
+odin build source/main_web -target:js_wasm32 -build-mode:obj -define:RAYLIB_WASM_LIB=env.o -define:RAYGUI_WASM_LIB=env.o -vet -strict-style -out:build/web/game.wasm.o
+rm -rf build/web source/build<\n>./build_web.sh
+cd build/web/
+ls -la
+doas apt install python3 php
+python server 
+python3 server 
+python3 -m https.server
+python3 -m http.server
+rm -rf build/web source/build<\n>./build_web.sh
+cd ..
+cd..
+cd ..
+rm -rf build/web source/build<\n>./build_web.sh
+cd Projects/odin/catching-game/odin-raylib-web/
+cd build/web/
+python3 -m http.server
+cd ..
+rm -rf build/web source/build<\n>./build_web.sh
+cd build/web/
+python3 -m http.server
+rm -rf build/web source/build<\n>./build_web.sh
+cd Projects/odin/catching-game/odin-raylib-web/
+ls la
+ls -la
+cd build/
+^zip web/
+^zip -r web/
+cd ..
+cd build/web<\n>zip -r ../../game-web.zip .<\n>cd ../..
+cd build/web<\n>^zip -r ../../game-web.zip .<\n>cd ../..
+cd odin-raylib-web/
+cd build/web<\n>^zip -r ../../game-web.zip .<\n>cd ../..
+ls -la
+doas poweroff
+starxt
+doas apt install steam
+doas apt install steam-devices
+doas apt install steam-installer
+deb http://deb.debian.org/debian/ trixie main contrib non-free non-free-firmware<\n>
+deb http://deb.debian.org/debian/ trixie main contrib non-free non-free-firmware
+^deb http://deb.debian.org/debian/ trixie main contrib non-free non-free-firmware
+sudo apt update<\n>sudo apt upgrade
+doas apt update<\n>doas apt upgrade
+doas dpkg --add-architecture i386<\n>doas apt update
+doas dpkg --print-foreign-architectures
+doas mv Downloads/steam.gpg /usr/share/keyrings/
+doas tee /etc/apt/sources.list.d/steam-stable.list <<'EOF'<\n>deb [arch=amd64,i386 signed-by=/usr/share/keyrings/steam.gpg] https://repo.steampowered.com/steam/ stable steam<\n>deb-src [arch=amd64,i386 signed-by=/usr/share/keyrings/steam.gpg] https://repo.steampowered.com/steam/ stable steam<\n>EOF<\n>doas dpkg --add-architecture i386<\n>doas apt-get update<\n>(doas apt-get install<\n>  libgl1-mesa-dri:amd64<\n>  libgl1-mesa-dri:i386<\n>  libgl1-mesa-glx:amd66<\n>  libgl1-mesa-glx:i386<\n>  steam-launcher<\n>)
+doas tee /etc/apt/sources.list.d/steam-stable.list <<'EOF'<\n>deb [arch=amd64,i386 signed-by=/usr/share/keyrings/steam.gpg] https://repo.steampowered.com/steam/ stable steam<\n>deb-src [arch=amd64,i386 signed-by=/usr/share/keyrings/steam.gpg] https://repo.steampowered.com/steam/ stable steam<\n>EOF
+bash
+sudo apt install ca-certificates curl
+doas apt install ca-certificates curl
+doas curl -fsSLo /usr/share/keyrings/steam.gpg https://repo.steampowered.com/steam/archive/stable/steam.gpg
+bash
+doas apt update<\n>apt-cache policy steam-launcher
+doas apt install steam-launcher
+sudo rm -f /etc/apt/sources.list.d/steam-stable.list /etc/apt/sources.list.d/steam-beta.list<\n>sudo apt update
+doas rm -f /etc/apt/sources.list.d/steam-stable.list /etc/apt/sources.list.d/steam-beta.list<\n>sudo apt update
+doas rm -f /etc/apt/sources.list.d/steam-stable.list /etc/apt/sources.list.d/steam-beta.list<\n>doas apt update
+steam
+picom
+pkill -f picom
+picom
+picom -b
+ls -la
+rm -rf Desktop/
+ls -la
+doas apt install pipewire
+doas apt install pipewire pipewire-audio wireplumber pipewire-pulse pipewire-alsa
+systemctl --user status pulseaudio.service pulseaudio.socket 2>/dev/null
+systemctl --user --now enable pipewire pipewire-pulse wireplumber
+systemctl --user status pipewire
+pactl info
+wpctl status
+doas apt install pavucontrol
+doas apt install pulseaudio-utils
+systemctl --user status pulseaudio.service | complete
+wpctl status
+doas apt install pipewire-audio-client-libraries alsa-utils<\n>speaker-test -c 2 -t wav
+ping 8.8.8.8
+alsamixer
+wpctl status
+doas poweroff
+doas apt install flameshot
+btm
+pkill -f steam
+cbonsai -l --season=winter
+doas apt --help
+doas apt --help autoremove
+doas apt autoremove --help
+doas apt autoremove
+doas poweroff
+steam
+doas steam
+steam
+doas apt update
+doas apt upgrade
+doas apt updateall
+doas apt update-all
+doas apt --help
+doas apt full-upgrade
+cbonsai -l --season=winter
+doas poweroff
+doas apt install glfw
+sudo apt install libglfw3 libglfw3-dev
+doas apt install libglfw3 libglfw3-dev
+doas apt remove sudo
+cd /usr/local/Odin/
+ls -la
+cd src/
+ls -la
+cd ..
+ls -la
+cd base/
+ls -la
+cd builtin/
+ls -la
+cat builtin.odin
+cd ..
+cd base/
+ls -la
+cd ..
+ls -la
+cd core/
+ls -la
+cd fmt/
+ls- la
+ls -la
+bat fmt.odin
+doas apt install bat
+bat fmt.odin
+batcat fmt.odin
+cd /usr/local/Odin/core/
+cd fmt/
+ls -la
+batcat example.odin
+batcat doc.odin
+batcat fmt.odin
+pkill -f emacs
+startx
+doas poweroff
+ping 8.8.8.8
+ls -la Downloads/
+rm Downloads/go1.26.4.linux-amd64.tar.gz Downloads/zig-x86_64-linux-0.16.0.tar.xz
+doas apt install glsl-lsp
+startx
+doas poweroff
+cd Projects/odin/
+mkdir raylib-jam-6.x
+cd raylib-jam-6.x/
+gh repo clone karl-zylinski/odin-raylib-web
+ls -la
+mv odin-raylib-web/* .
+ls -la]
+ls -la
+rm -rf odin-raylib-web/
+rm README.md LICENSE *.bat
+l s-la
+ls -la
+rm project.sublime-project
+rm assets/*
+ls -al
+cd Projects/odin/raylib-jam-6.x/
+rm -rf build/web source/build<\n>./build_web.sh
+startx
+doas poweroff
+doas apt install auto-cpufreq
+doas apt install autocpufreq
+cd /tmp/
+doas apt update<\n>doas apt install git -y<\n>git clone https://github.com/AdnanHodzic/auto-cpufreq.git<\n>cd auto-cpufreq ; doas ./auto-cpufreq-installer
+doas auto-cpufreq --install
+doas systemctl enable auto-cpufreq<\n>doas systemctl start auto-cpufreq
+bluemoon 
+doas bluemoon 
+doas bluetoothctl 
+cargo install bluetui --locked
+doas apt install blueman
+blueman
+doas apt remove blueman
+cargo install bluetui --locked
+bluetui 
+cargo remove bluetui --locked
+cargo uninstall bluetui --locked
+doas apt install blueman
+doas apt remove blueman
+doas apt install bluetuith 
+doas apt install blueman
+blueman
+blueman-manager 
+doas apt install bluetuith
+doas apt remove blueman
+go install github.com/darkhz/bluetuith@latest
+bluemoon 
+doas go install github.com/darkhz/bluetuith@latest
+doas apt install bluez<\n>doas systemctl enable bluetooth<\n>doas systemctl start bluetooth
+config nu 
+source ~/.config/nushell/config.nu
+doas which bluetuih
+ls -la
+cd go/
+ls -la
+cd bin/
+ls -la
+doas go install github.com/darkhz/bluetuith@latest
+go install github.com/darkhz/bluetuith@latest
+doas go uninstall github.com/darkhz/bluetuith@latest
+doas go remove github.com/darkhz/bluetuith@latest
+bluetoothctl 
+bluetuig
+bluetuih
+doas apt install discord
+doas apt install chromuim
+doas apt install chromium
+doas apt install flatpak
+flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+flatpak install flathub dev.vencord.Vesktop
+config nu 
+flatpak ubinstall flathub dev.vencord.Vesktop
+flatpak uninstall flathub dev.vencord.Vesktop
+doas which vesktop
+flatpak run dev.vencord.Vesktop
+bluetuih
+job spawn {flatpak run dev.vencord.Vesktop}
+flatpak run dev.vencord.Vesktop
+flatpak uninstall flathub dev.vencord.Vesktop
+flatpak install flathub dev.vencord.Vesktop
+config nu 
+flatpak run dev.vencord.Vesktop
+pkill -f vesktop
+flatpak run dev.vencord.Vesktop
+cd Downloads/
+ls -la
+rm dev.vencord.Vesktop.desktop.download
+bash
+config nu 
+update-desktop-database ~/.local/share/applications
+startx
+ls -la ~/.local/share/applications/
+mv ~/.local/share/applications/dev.vencord.Vesktop.desktop vesktop.desktop
+ls -la
+mv vesktop.desktop ~/.local/share/applications/
+update-desktop-database ~/.local/share/applications
+vencord
+daos update-desktop-database ~/.local/share/applications
+doas update-desktop-database ~/.local/share/applications
+open ~/.local/share/applications/vesktop.desktop
+desktop-file-validate ~/.local/share/applications/vesktop.desktop
+doas chown rye:rye ~/.local/share/applications/mimeinfo.cache
+ls -la ~/.local/share/applications/mimeinfo.cache
+$env.XDG_DATA_DIRS
+config nu 
+doas apt update<\n>doas apt install j4-dmenu-desktop
+j4-dmenu-desktop
+which dmenu
+open ~/.config/nushell/env.nu | grep -i xdg
+open ~/.config/nushell/config.nu | grep -i xdg
+config nu 
+source ~/.config/nushell/config.nu
+j4-dmenu-desktop
+cd .suckless/
+cd dmenu/
+ls -la
+cd ..
+cd dw
+cd dwm/
+vim config.h
+emacs config.h
+cd ..
+cd dmenu/
+emacs config.h
+make clean ; make ; doas make install
+j4-dmenu-desktop
+cd ..
+cd dwm/
+ls -la
+emacs config.h
+make clean ; make ; doas make install
+emacs
+cd .suckless/dmenu/
+cd ..
+cd dwm/
+make clean ; make ; doas make install
+startx
+"#!/bin/sh<\n>j4-dmenu-desktop --dmenu=\"dmenu -m 0 -fn 'monospace:size=10' -nb '#3d4638' -nf '#c7d1bd' -sb '#c9587e' -sf '#f5ece6'\"<\n>" | save -f ~/.local/bin/dmenu_j4<\n>chmod +x ~/.local/bin/dmenu_j4
+"#!/bin/sh<\n>j4-dmenu-desktop --dmenu=\"dmenu -m 0 -fn 'monospace:size=10' -nb '#3d4638' -nf '#c7d1bd' -sb '#c9587e' -sf '#f5ece6'\"<\n>" | save -f /usr/local/bin/dmenu_j4<\n>chmod +x /usr/local/bin/dmenu_j4
+"#!/bin/sh<\n>j4-dmenu-desktop --dmenu=\"dmenu -m 0 -fn 'monospace:size=10' -nb '#3d4638' -nf '#c7d1bd' -sb '#c9587e' -sf '#f5ece6'\"<\n>" | doas save -f /usr/local/bin/dmenu_j4<\n>doas chmod +x /usr/local/bin/dmenu_j4
+"#!/bin/sh<\n>j4-dmenu-desktop --dmenu=\"dmenu -m 0 -fn 'monospace:size=10' -nb '#3d4638' -nf '#c7d1bd' -sb '#c9587e' -sf '#f5ece6'\"<\n>" | doas ^save -f /usr/local/bin/dmenu_j4<\n>doas chmod +x /usr/local/bin/dmenu_j4
+"#!/bin/sh<\n>j4-dmenu-desktop --dmenu=\"dmenu -m 0 -fn 'monospace:size=10' -nb '#3d4638' -nf '#c7d1bd' -sb '#c9587e' -sf '#f5ece6'\"<\n>" | save -f /usr/local/bin/dmenu_j4<\n>chmod +x /usr/local/bin/dmenu_j4
+"#!/bin/sh<\n>j4-dmenu-desktop --dmenu=\"dmenu -m 0 -fn 'monospace:size=10' -nb '#3d4638' -nf '#c7d1bd' -sb '#c9587e' -sf '#f5ece6'\"<\n>" | save -f ~/.local/bin/dmenu_j4<\n>chmod +x ~/.local/bin/dmenu_j4
+mkdir .local/bin
+"#!/bin/sh<\n>j4-dmenu-desktop --dmenu=\"dmenu -m 0 -fn 'monospace:size=10' -nb '#3d4638' -nf '#c7d1bd' -sb '#c9587e' -sf '#f5ece6'\"<\n>" | save -f ~/.local/bin/dmenu_j4<\n>chmod +x ~/.local/bin/dmenu_j4
+dmenu_j4 
+emacs
+cd .suckless/dwm/
+make clean ; make ; doas make install
+doas apt install rofi
+emacs
+rofi -show combi
+rofi -show combi -dump-config | head -20
+rofi -show combi -dump-config
+rofi -show combi -dump-config | head -20
+rofi -show combi -config ~/.config/rofi/config.rasi
+rofi -show combi -dump-config | head -20
+rofi -show combi -config ~/.config/rofi/config.rasi 2>&1 | head -30
+rofi -show combi -config ~/.config/rofi/config.rasi out+err> | head -30
+rofi -show combi -config ~/.config/rofi/config.rasi out+err> | head 30
+rofi -show combi -config ~/.config/rofi/config.rasi out+err> | head -30
+rofi -show combi -config ~/.config/rofi/config.rasi out+err> | head 30
+rofi -show combi -config ~/.config/rofi/config.rasi out+err>
+rofi -show combi -config ~/.config/rofi/config.rasi
+rofi -show combi -dump-config | head -20
+rofi -version
+open ~/.config/rofi/config.rasi
+emacs
+rofi -show combi
+rofi -show combi -theme ~/.config/rofi/config.rasi
+rofi -show combi -dump-config | grep -i theme
+ls -la ~/.config/rofi/config.rasi<\n>echo $env.XDG_CONFIG_HOME
+rofi -show combi -theme ~/.config/rofi/config.rasi
+rofi -show combi -config ~/.config/rofi/config.rasi -v
+rofi -show combi -dump-theme
+rofi -show combi -theme-str ''
+rofi -show combi -dump-theme | xclip -selection clipboard
+rofi -show combi
+rofi -show combi -theme ~/.config/rofi/config.rasi
+cd .suckless/dwm/
+emacs config.h
+make clean ; make ; doas make install
+startx
+doas apt remove j4-dmenu-desktop
+doas apt purge j4-dmenu-desktop
+doas rm /usr/local/bin/dmenu_j4
+cd .suckless/dmenu/
+doas make uninstall
+cd ..
+rm -rf dmenu/
+ls -la
+cd .suckless/dw
+cd .suckless/dwm/
+make clean ; make ; doas make install
+doas vim /usr/local/bin/bluetuith
+doas chmod +x /usr/local/bin/bluetuith
+which st<\n>type st
+cd ~
+doas which st
+doas vim /usr/local/bin/bluetuith
+doas mv /usr/local/bin/bluetuith /usr/local/bin/bluetooth
+bluetooth
+st -e bluetuith
+doas vim /usr/local/bin/bluetooth
+bluetooth
+startx
+doas poweroff
+cd Projects/odin/catching-game/
+ls -la
+batcat game/objects.odin
+cd Projects/odin/raylib-jam-6.x/
+./build_desktop.sh
+./build/desktop/game_desktop.bin
+clear
+cd Projects/odin/raylib-jam-6.x/
+./build_desktop.sh ; ./build/desktop/game_desktop.bin
+cd Projects/odin/raylib-jam-6.x/
+./build_desktop.sh ; ./build/desktop/game_desktop.bin
+./build_desktop.sh
+./build_desktop.sh ; ./build/desktop/game_desktop.bin
+ping 8.8.8.8
+./build_desktop.sh ; ./build/desktop/game_desktop.bin
+./build_web.sh
+ls -la build/
+du build/
+du build/web/
+du build/desktop/
+du build/web/
+cd Projects/odin/raylib-jam-6.x/
+ls -la
+cd Projects/odin/raylib-jam-6.x/
+cd source/
+ls -la
+startx
+doas poweroff
+doas apt install localsend
+flatpak install flathub org.localsend.localsend_app<\n>flatpak run org.localsend.localsend_app
+flatpak run org.localsend.localsend_app
+flatpak install flathub org.localsend.localsend_app
+flatpak uninstall flathub org.localsend.localsend_app
+cd Downloads/
+doas apt install LocalSend-1.17.0-linux-x86-64.deb
+doas apt-ftparchive  LocalSend-1.17.0-linux-x86-64.deb
+doas apt install ./LocalSend-1.17.0-linux-x86-64.deb
+localsend_app 
+ls -la
+ls -la Downloads/
+ls -la Music/
+tar --help
+tar cf Music/ music.tar.gz
+tar cf Music/* music.tar.gz
+rm -rf Music/.thumbnails/
+tar cf Music/* music.tar.gz
+tar cf Music/*
+ls -la
+ls -la Music/
+ls -la
+tar -cf Music/*
+ls -la
+tar -czvf Music.tar.gz Music/
+sudo apt install pigz    
+doas apt install pigz    
+tar -I pigz -cf archive.tar.gz Music/
+rm Music.tar.gz
+tar -I pigz -cf archive.tar.gz Music/
+rm archive.tar.gz
+sudo apt uninstall pigz    
+doas apt uninstall pigz    
+doas apt remove pigz    
+sudo apt install zstd
+doas apt install zstd
+config nu 
+source ~/.config/nushell/config.nu
+doas apt autoremove --purge
+tar -cf - Music/ | zstd -T0 -19 -o test19.tar.zst<\n>tar -cf - Music/ | zstd -T0 --ultra -22 -o test22.tar.zst<\n>ls test19.tar.zst test22.tar.zst
+ls -la test19.tar.zst test22.tar.zst
+du test19.tar.zst test22.tar.zst
+du test19.tar.zst test22.tar.zst Music/
+rm test*
+ls- la
+ls -la
+tar -cf - Music/ | zstd -T0 -1 -o Music.tar.zst
+du Music.tar.zst
+doas apt install pigz
+tar -I pigz -cf Music.tar.gz Music/
+du Music.*
+rm Music.tar.gz
+doas apt remove pigz
+startx
+doas poweroff
+doas apt install systemd-boot
+bootctl status
+doas bootctl status
+doas bootctl status | xclip -selection clipboard
+ls /etc/kernel/postinst.d/ /etc/kernel/postrm.d/
+startx
+doas reboot 
+dpkg -l | grep -iE 'grub|shim'
+doas apt purge grub-common grub-efi-amd64 grub-efi-amd64-bin grub-efi-amd64-signed grub-efi-amd64-unsigned grub2-common shim-helpers-amd64-signed shim-signed shim-signed-common shim-unsigned<\n>doas apt autoremove
+doas apt update
+doas apt ugrade
+doas apt upgrade
+doas apt purge grub-common grub-efi-amd64 grub-efi-amd64-bin grub-efi-amd64-signed grub-efi-amd64-unsigned grub2-common shim-helpers-amd64-signed shim-signed shim-signed-common shim-unsigned<\n>doas apt autoremove
+sudo apt purge --allow-remove-essential grub-common grub-efi-amd64 grub-efi-amd64-bin grub-efi-amd64-signed grub-efi-amd64-unsigned grub2-common shim-helpers-amd64-signed shim-signed shim-signed-common shim-unsigned
+doas apt purge --allow-remove-essential grub-common grub-efi-amd64 grub-efi-amd64-bin grub-efi-amd64-signed grub-efi-amd64-unsigned grub2-common shim-helpers-amd64-signed shim-signed shim-signed-common shim-unsigned
+sudo apt autoremove --purge
+doas apt autoremove --purge
+doas apt upgrade
+doas apt update
+ls /boot/efi/*/*/6.12.94+deb13-amd64/ 2>/dev/null<\n>uname -r
+ls /boot/efi/*/*/6.12.94+deb13-amd64/ 2>/dev/null<\n>uname
+doas ls /boot/efi/*/*/6.12.94+deb13-amd64/ 2>/dev/null<\n>doas uname -r
+uname -r
+uname
+find /boot/efi -iname "*6.12.94*"
+^find /boot/efi -iname "*6.12.94*"
+doas find /boot/efi -iname "*6.12.94*"
+doas ls /boot/efi/7afb1a07dfdb437c9c7bdf1472cfe677/6.12.94+deb13-amd64/
+efibootmgr -v
+doas efibootmgr -b 0002 -B<\n>doas efibootmgr -b 0001 -B
+doas efibootmgr -o 0000,2001,2002,2003
+doas ls /boot/efi/EFI/
+doas rm -rf /boot/grub<\n>doas rm -f /etc/default/grub
+doas ls -la /boot/efi/EFI/debian<\n>doas ls -la /boot/efi/EFI/Linux<\n>doas ls -la /boot/efi/EFI/BOOT
+doas rm -rf /boot/efi/EFI/debian<\n>doas rm -f /boot/efi/EFI/BOOT/grubx64.efi /boot/efi/EFI/BOOT/mmx64.efi /boot/efi/EFI/BOOT/fbx64.efi
+{doas ls -la /boot/efi/EFI/BOOT<\n>doas ls /boot/efi/EFI/<\n>efibootmgr -v<\n>bootctl status} | xclip -selection clipboard
+doas ls -la /boot/efi/EFI/BOOT<\n>doas ls /boot/efi/EFI/<\n>efibootmgr -v<\n>bootctl status
+doas ls -la /boot/efi/EFI/BOOT<\n>doas ls /boot/efi/EFI/<\n>efibootmgr -v<\n>doas bootctl status
+doas bootctl set-default 7afb1a07dfdb437c9c7bdf1472cfe677-6.12.95+deb13-amd64.conf
+doas bootctl status
+startx
+cd Projects/odin/raylib-jam-6.x/
+./build_desktop.sh ; ./build/desktop/game_desktop.bin
+unzip ~/Downloads/kenney_tiny-dungeon.zip
+ls -la
+rm Preview.png Sample.png `Visit Kenney.url` `Visit Patreon.url`
+ls -la
+batcat Tilesheet.txt
+rm License.txt
+ls -la Tiled/
+rm -rf Tiled/
+ls -la
+ls -la Tilemap/
+iv
+ls -la Tiles/
+rm -rf Tiles/
+ls -la
+mv Tilemap/* assets/
+ls -la assets/
+rm assets/sprite-sheet.*
+ls -la assets/
+./build_desktop.sh ; ./build/desktop/game_desktop.bin
+mv ~/Downloads/fireball.png assets/
+./build_desktop.sh ; ./build/desktop/game_desktop.bin
+ls -la assets/
+./build_desktop.sh ; ./build/desktop/game_desktop.bin
+cd .config/
+ls -la
+git init
+gh repo --help
+gh repo sync --help
+git commit
+emacs .gitignore
+ls -la
+git stage .
+ls -la
+rm -rf emacs/elpa/odin-mode/
+git status
+cd ..
+tar -cf - .suckless/ | zstd -T0 -1 -o Suckless.tar.ztd
+tar -cf - .suckless/ | zstd -T0 --ultra -22 -o Suckless.tar.zst
+du Suckless.tar.zst
+rm  Suckless.tar.ztd
+du .suckless/
+mv Suckless.tar.zst .config/
+cd .config/
+git stage .
+git status
+git commit -m "no more systemd"
+git config --global --edit
+git commit --amend --reset-author<\n>
+git push
+git push dot-files
+git push --set-upstream dot-files master
+git push --set-upstream git@github.com:ragg967/dot-files.git master
+git push --set-upstream git@github.com:ragg967/dot-files.git main
+git status
+git --help
+git status
+ls -la
+rm -rf .git/
+git init
